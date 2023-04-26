@@ -252,24 +252,89 @@ Insurance Professionals: Insurance professionals can help to protect the company
 ,Cybersecurity Policies
 ,Other IT and Software Documents
 
+{
+
+IT Manager: An IT manager is responsible for the overall management of a company's IT infrastructure and systems. This includes the planning, procurement, implementation, and maintenance of IT systems and services.
+
+Software Engineer: A software engineer is responsible for the design, development, and testing of software applications.
+
+Cybersecurity Analyst: A cybersecurity analyst is responsible for the identification, assessment, and mitigation of cybersecurity risks.
+
+Other IT and Software Professionals: There are a number of other professionals who can be involved in IT and software, such as:
+
+IT Architects: IT architects design and plan the overall IT infrastructure of a company.
+
+IT Project Managers: IT project managers oversee the implementation of IT projects.
+
+IT Support Staff: IT support staff provide technical support to users of IT systems and services.
+
+}
+
  Intellectual Property
 ,Patents
 ,Trademarks
 ,Copyrights
 ,Other Intellectual Property Documents
 
+{
+
+Intellectual Property (IP) Attorney: An IP attorney is a lawyer who specializes in intellectual property law. They can help companies to protect their intellectual property rights, such as patents, trademarks, and copyrights.
+IP Counsel: An IP counsel is a lawyer who works in-house for a company and advises the company on intellectual property matters.
+IP Manager: An IP manager is a non-lawyer who is responsible for the management of a company's intellectual property portfolio. This includes the identification, protection, and exploitation of intellectual property rights.
+IP Analyst: An IP analyst is a non-lawyer who gathers and analyzes data on intellectual property. This data can be used to identify trends, assess risks, and make strategic decisions.
+Other IP Professionals: There are a number of other professionals who can be involved in intellectual property, such as:
+Patent Agents: Patent agents are not lawyers, but they are licensed to represent clients before the United States Patent and Trademark Office (USPTO).
+Trademark Agents: Trademark agents are not lawyers, but they are licensed to represent clients before the USPTO.
+Copyright Agents: Copyright agents are not lawyers, but they can help clients to register their copyrights with the US Copyright Office.
+
+}
  Compliance Software
 ,Risk Management Software
 ,Compliance Tracking Systems
 ,Regulatory Reporting Tools
 ,Other Compliance Software Documents
 
+{
+
+Compliance Officer: A compliance officer is responsible for overseeing the company's compliance with applicable laws and regulations. They may be responsible for developing and implementing compliance policies and procedures, conducting training, and investigating compliance violations.
+
+Risk Manager: A risk manager is responsible for identifying, assessing, and mitigating risks that could impact the company's operations, finances, or reputation. They may be responsible for developing and implementing risk management plans, conducting risk assessments, and monitoring risk exposures.
+
+Compliance Manager: A compliance manager is responsible for the day-to-day management of the company's compliance program. They may be responsible for developing and implementing compliance policies and procedures, conducting training, and investigating compliance violations.
+
+Other Compliance Professionals: There are a number of other professionals who can be involved in compliance, such as:
+
+Insurance Professionals: Insurance professionals can help companies to protect themselves against financial losses. They can help companies to identify the risks that they are most exposed to and to purchase insurance policies that will cover those risks.
+
+Security Professionals: Security professionals can help companies to protect themselves against physical and cyber threats. They can help companies to identify and mitigate security risks, such as unauthorized access to computer systems or theft of physical assets.
+
+Contingency Planners: Contingency planners can help companies to develop plans to deal with unexpected events. These events could include natural disasters, cyberattacks, or other disruptions to the company's operations.
+
+}
  Asset Tracking Software
 ,Asset Management Systems
 ,Inventory Management Tools
 ,Asset Tracking Software Documents
 ,Other Asset Tracking Software Documents
 
+{
+
+Asset Manager: An asset manager is responsible for the overall management of a company's assets. This includes the identification, valuation, acquisition, disposal, and maintenance of assets.
+
+Inventory Manager: An inventory manager is responsible for the day-to-day management of a company's inventory. This includes the ordering, receiving, storing, and issuing of inventory.
+
+IT Manager: An IT manager is responsible for the overall management of a company's IT infrastructure and systems. This includes the planning, procurement, implementation, and maintenance of IT systems and services.
+
+Software Engineer: A software engineer is responsible for the design, development, and testing of software applications.
+
+Other Asset Tracking and Management Professionals: There are a number of other professionals who can be involved in asset tracking and management, such as:
+
+Accountants: Accountants can help to track the value of assets and to prepare financial statements that reflect the company's assets.
+
+Lawyers: Lawyers can help to draft contracts and to advise the company on legal matters related to assets.
+
+Insurance Professionals: Insurance professionals can help to protect the company against losses that may occur to its assets.
+}
  Human Resources
 ,Employment Contracts
 ,Job Descriptions
@@ -277,42 +342,158 @@ Insurance Professionals: Insurance professionals can help to protect the company
 ,Performance Management Policies
 ,Other Human Resources Documents
 
+{
+
+Human Resources (HR) Manager: An HR manager is responsible for the overall management of a company's human resources department. This includes the planning, recruitment, hiring, onboarding, training, development, compensation, benefits, and termination of employees.
+
+HR Specialist: An HR specialist is responsible for a specific area of HR, such as recruiting, hiring, training, benefits, or compensation.
+
+HR Assistant: An HR assistant provides administrative support to the HR department. This includes tasks such as answering phones, scheduling appointments, and preparing reports.
+
+Employment Lawyer: An employment lawyer is a lawyer who specializes in employment law. They can help companies to draft and negotiate employment contracts, comply with employment laws, and resolve employment disputes.
+
+Human Resources Consultant: A human resources consultant is a professional who provides advice and services to companies on a variety of HR matters. This includes tasks such as recruiting, hiring, training, benefits, and compensation.
+
+}
  Marketing and Communications
 ,Branding Guidelines
 ,Social Media Policies
 ,Public Relations Strategies
 ,Other Marketing and Communications Documents
 
+{
+
+Marketing Manager: A marketing manager is responsible for the overall marketing strategy of a company. This includes developing and implementing marketing campaigns, managing marketing budgets, and tracking marketing results.
+Marketing Specialist: A marketing specialist is responsible for a specific area of marketing, such as advertising, public relations, or social media.
+Marketing Communications Manager: A marketing communications manager is responsible for developing and implementing marketing communications campaigns, such as press releases, brochures, and website content.
+Brand Manager: A brand manager is responsible for the overall brand strategy of a company. This includes developing and implementing brand guidelines, managing brand assets, and tracking brand awareness.
+Social Media Manager: A social media manager is responsible for managing a company's social media accounts. This includes creating and scheduling content, responding to comments, and monitoring social media trends.
+Public Relations Manager: A public relations manager is responsible for developing and implementing public relations campaigns. This includes building relationships with journalists, writing press releases, and handling media inquiries.
+
+}
  Grants and Funding
 ,Grant Applications
 ,Fundraising Plans
 ,Financial Reports to Funders
 ,Other Grants and Funding Documents
 
+{
+
+Development Officer: A development officer is responsible for raising money for a nonprofit organization. This includes identifying potential donors, cultivating relationships with donors, and soliciting donations.
+
+Grant Writer: A grant writer is responsible for writing grant applications. This includes researching funding opportunities, writing proposals, and managing the grant process.
+
+Fundraiser: A fundraiser is responsible for planning and executing fundraising events. This includes securing sponsors, coordinating volunteers, and promoting events.
+
+Accountant: An accountant is responsible for tracking financial records and preparing financial reports. This includes tracking income and expenses, preparing budgets, and preparing financial statements.
+
+Other Grants and Funding Professionals: There are a number of other professionals who can be involved in grants and funding, such as:
+
+Lawyers: Lawyers can help to draft contracts and to advise the organization on legal matters related to grants and funding.
+
+Public Relations Professionals: Public relations professionals can help to generate publicity for the organization and to build relationships with potential donors.
+
+Marketing Professionals: Marketing professionals can help to develop and implement marketing campaigns to raise awareness of the organization and its fundraising efforts.
+
+}
  Community Impact
 ,Impact Reports
 ,Community Engagement Strategies
 ,Environmental Policies
 ,Other Community Impact Documents
 
+{
+
+Community Engagement Manager: A community engagement manager is responsible for developing and implementing strategies to engage with the community. This includes building relationships with community stakeholders, conducting surveys and interviews, and organizing events.
+
+Environmental Manager: An environmental manager is responsible for developing and implementing environmental policies and procedures. This includes managing waste, recycling, and energy use.
+
+Sustainability Manager: A sustainability manager is responsible for developing and implementing sustainability initiatives. This includes reducing the organization's environmental impact, such as by using renewable energy and reducing water consumption.
+
+Other Community Impact Professionals: There are a number of other professionals who can be involved in community impact, such as:
+
+Community Organizers: Community organizers work to build power and capacity in communities. They do this by organizing people around shared goals, such as improving public services or fighting for social justice.
+
+Social Workers: Social workers help people in need. They do this by providing counseling, case management, and other services.
+
+Healthcare Professionals: Healthcare professionals provide healthcare services to people in need. They do this by providing medical care, counseling, and other services.
+
+}
  Membership and Stakeholders
 ,Membership Policies
 ,Stakeholder Engagement Plans
 ,Communication Strategies
 ,Other Membership and Stakeholder Documents
+{
 
+Membership Manager: A membership manager is responsible for the overall management of a membership organization's membership program. This includes recruiting new members, retaining existing members, and managing member data.
+
+Stakeholder Engagement Manager: A stakeholder engagement manager is responsible for developing and implementing strategies to engage with stakeholders. This includes building relationships with stakeholders, conducting surveys and interviews, and organizing events.
+
+Communication Manager: A communication manager is responsible for developing and implementing communication strategies. This includes creating and distributing content, managing social media, and responding to inquiries.
+
+Other Membership and Stakeholder Professionals: There are a number of other professionals who can be involved in membership and stakeholder engagement, such as:
+
+Accountants: Accountants can help to track membership revenue and expenses.
+
+Lawyers: Lawyers can help to draft contracts and to advise the organization on legal matters related to membership and stakeholder engagement.
+
+Marketing Professionals: Marketing professionals can help to develop and implement marketing campaigns to raise awareness of the organization and its membership program.
+
+}
  Partnerships and Collaborations
 ,Joint Venture Agreements
 ,Collaboration Plans
 ,Partnership Policies
 ,Other Partnerships and Collaborations Documents
+{
 
+Partnership Manager: A partnership manager is responsible for the overall management of a company's partnerships. This includes identifying potential partners, negotiating agreements, and managing the partnership relationship.
+
+Collaboration Manager: A collaboration manager is responsible for the overall management of a company's collaborations. This includes identifying potential collaborators, negotiating agreements, and managing the collaboration relationship.
+
+Business Development Manager: A business development manager is responsible for identifying and developing new business opportunities. This includes networking, researching potential partners, and pitching new ideas.
+
+Sales Manager: A sales manager is responsible for selling a company's products or services. This includes prospecting, qualifying leads, and closing deals.
+
+Other Partnerships and Collaborations Professionals: There are a number of other professionals who can be involved in partnerships and collaborations, such as:
+
+Accountants: Accountants can help to track revenue and expenses related to partnerships and collaborations.
+
+Lawyers: Lawyers can help to draft contracts and to advise the company on legal matters related to partnerships and collaborations.
+
+Marketing Professionals: Marketing professionals can help to develop and implement marketing campaigns to raise awareness of the company's partnerships and collaborations.
+
+
+}
  Events and Outreach
 ,Event Planning Documents
 ,Outreach Strategies
 ,Attendance Reports
 ,Other Events and Outreach
 
+{
+
+Events Manager: An events manager is responsible for the overall planning and execution of events. This includes identifying event opportunities, developing budgets, securing venues, and managing logistics.
+
+Outreach Manager: An outreach manager is responsible for developing and implementing outreach strategies. This includes identifying target audiences, developing messaging, and managing campaigns.
+
+Marketing Manager: A marketing manager is responsible for developing and implementing marketing strategies. This includes identifying target audiences, developing messaging, and managing campaigns.
+
+Communications Manager: A communications manager is responsible for developing and implementing communications strategies. This includes developing content, managing social media, and responding to inquiries.
+
+Other Events and Outreach Professionals: There are a number of other professionals who can be involved in events and outreach, such as:
+Accountants: Accountants can help to track event revenue and expenses.
+
+Lawyers: Lawyers can help to draft contracts and to advise the organization on legal matters related to events and outreach.
+
+Graphic Designers: Graphic designers can help to create event materials, such as flyers, posters, and invitations.
+
+Videographers: Videographers can help to capture event footage, such as speeches, performances, and interviews.
+
+Photographers: Photographers can help to capture event photos, such as attendees, speakers, and activities.
+
+}
 Sure, here is a possible way to group the roles for a team of 5 people, with one person good at comms, one tech, one admin, one can do anything and one can do just a little:
 
 
