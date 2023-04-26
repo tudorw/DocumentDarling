@@ -1,0 +1,86 @@
+database:
+  name: document_management_system
+  tables:
+    users:
+      id: SERIAL PRIMARY KEY
+      username: VARCHAR(255) UNIQUE NOT NULL
+      email: VARCHAR(255) UNIQUE NOT NULL
+      password_hash: VARCHAR(255) NOT NULL
+    documents:
+      id: SERIAL PRIMARY KEY
+      title: VARCHAR(255) NOT NULL
+      content: TEXT NOT NULL
+      doc_type: VARCHAR(255) NOT NULL
+      created_at: TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+      approval_status: VARCHAR(255) NOT NULL DEFAULT 'pending'
+      compliance_status: VARCHAR(255) NOT NULL DEFAULT 'pending'
+    suggestions:
+      id: SERIAL PRIMARY KEY
+      suggestion: TEXT NOT NULL
+      status: VARCHAR(255) NOT NULL DEFAULT 'pending'
+      feedback: TEXT
+      document_id: INT NOT NULL REFERENCES documents (id)
+    document_versions:
+      id: SERIAL PRIMARY KEY
+      document_id: INT NOT NULL REFERENCES documents (id)
+      title: VARCHAR(255) NOT NULL
+      content: TEXT NOT NULL
+      created_at: TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+      version_number: INT NOT NULL
+    document_tags:
+      id: SERIAL PRIMARY KEY
+      name: VARCHAR(255) NOT NULL UNIQUE
+    document_tags_association:
+      document_id: INT NOT NULL REFERENCES documents (id)
+      document_tag_id: INT NOT NULL REFERENCES document_tags (id)
+      PRIMARY KEY (document_id, document_tag_id)
+    document_history:
+      id: SERIAL PRIMARY KEY
+      document_id: INT NOT NULL REFERENCES documents (id)
+      user_id: INT NOT NULL REFERENCES users (id)
+      timestamp: TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+      description: TEXT NOT NULL
+    roles:
+      id: SERIAL PRIMARY KEY
+      name: VARCHAR(255) NOT NULL UNIQUE
+      permissions: TEXT NOT NULL
+    users_roles:
+      user_id: INT NOT NULL REFERENCES users (id)
+      role_id: INT NOT NULL REFERENCES roles (id)
+      PRIMARY KEY (user_id, role_id)
+    ai_models:
+      id: SERIAL PRIMARY KEY
+      name: VARCHAR(255) NOT NULL
+      version: VARCHAR(255) NOT NULL
+      performance_metrics: TEXT NOT NULL
+    document_approvals:
+      id: SERIAL PRIMARY KEY
+      document_id: INT NOT NULL REFERENCES documents (id)
+      approver_id: INT NOT NULL REFERENCES users (id)
+      approval_timestamp: TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+      approval_status: VARCHAR(255) NOT NULL
+      comments: TEXT
+    notifications:
+      id: SERIAL PRIMARY KEY
+      recipient_id: INT NOT NULL REFERENCES users (id)
+      content: TEXT NOT NULL
+      timestamp: TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+      read_status: BOOLEAN NOT NULL DEFAULT FALSE
+    document_reviews:
+      id: SERIAL PRIMARY KEY
+      document_id: INT NOT NULL REFERENCES documents (id)
+      reviewer_id: INT NOT NULL REFERENCES users (id)
+      review_timestamp: TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+      review_status: VARCHAR(255) NOT NULL
+      comments: TEXT
+    comments:
+      id: SERIAL PRIMARY KEY
+      document_id: INT NOT NULL REFERENCES documents (id)
+      author_id: INT NOT NULL REFERENCES users (id)
+      content: TEXT NOT NULL
+      timestamp: TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+    document_templates:
+      id: SERIAL PRIMARY KEY
+      name: VARCHAR(255) NOT NULL UNIQUE
+      content: TEXT NOT NULL
+      doc_type: VARCHAR(255) NOT NULL
