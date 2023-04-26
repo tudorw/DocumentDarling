@@ -49,9 +49,13 @@ The .bat file will create the following folder structure on Windows.
 
 {
 Data Protection Officer (DPO): The DPO is an independent person or team that is responsible for overseeing an organization's compliance with the GDPR. The DPO can be an internal employee or an external consultant.
+
 Compliance Officer: The Compliance Officer is responsible for ensuring that an organization complies with all applicable laws and regulations, including the GDPR. The Compliance Officer may or may not be the same person as the DPO.
+
 Information Security Officer (ISO): The ISO is responsible for protecting an organization's information assets, including personal data. The ISO may or may not be the same person as the DPO or Compliance Officer.
+
 IT Manager: The IT Manager is responsible for the overall management of an organization's IT systems and infrastructure. The IT Manager may be involved in the development and implementation of GDPR-related policies and procedures.
+
 Records Manager: The Records Manager is responsible for the management of an organization's records, including personal data. The Records Manager may be involved in the development and implementation of GDPR-related policies and procedures.
 }
  Safeguarding
@@ -75,13 +79,33 @@ Records Manager: The Records Manager is responsible for the management of an org
  Articles of Association
 ,Articles of Association Document
 ,Amendment Documents
+{
+Lawyer: A lawyer is qualified to draft and review legal documents, such as the Articles of Association.
 
+Company Secretary: A company secretary is responsible for the administration of a company, including the preparation and filing of legal documents.
+
+In-house counsel: An in-house counsel is a lawyer who works for a company and is responsible for providing legal advice to the company.
+
+External consultant: An external consultant is a lawyer or other professional who can be hired to provide advice or assistance with specific tasks, such as drafting the Articles of Association.
+
+}
  Directors and Board
 ,Board Meeting Minutes
 ,Board Member Profiles
 ,Governance Policies
 ,Director Appointment Documents
 
+{
+Natural persons: Any natural person who is at least 18 years old and has the legal capacity to enter into contracts can be a director of a company.
+Legal persons: A legal person, such as a corporation or a partnership, can also be a director of a company.
+
+Non-executive directors: A non-executive director is a director who does not have an executive role in the company. Non-executive directors are typically appointed to provide independent oversight of the company's management.
+
+Executive directors: An executive director is a director who has an executive role in the company. Executive directors are typically involved in the day-to-day management of the company.
+
+Independent directors: An independent director is a director who is not an executive director and who does not have any material financial or other interests in the company. Independent directors are typically appointed to provide independent oversight of the company's management.
+
+}
  Policies and Procedures
 ,Code of Conduct
 ,Conflict of Interest Policy
