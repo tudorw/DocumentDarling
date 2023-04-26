@@ -23,128 +23,205 @@ Installation Instructions:
 The .bat file will create the following folder structure on Windows.
 
 
- 
  GDPR
-  Data Protection Policy
-  Data Subject Access Request Documents
-  Data Breach Incident Response Plan
-  Other GDPR-related Documents
+,Data Protection Policy
+,Data Subject Access Request Documents
+,Data Breach Incident Response Plan
+,Other GDPR-related Documents
 
  Safeguarding
-  Safeguarding Policy
-  Incident Reporting Procedures
-  Risk Assessments
-  Other Safeguarding-related Documents
+,Safeguarding Policy
+,Incident Reporting Procedures
+,Risk Assessments
+,Other Safeguarding-related Documents
 
  Articles of Association
-  Articles of Association Document
-  Amendment Documents
+,Articles of Association Document
+,Amendment Documents
 
  Directors and Board
-  Board Meeting Minutes
-  Board Member Profiles
-  Governance Policies
-  Director Appointment Documents
+,Board Meeting Minutes
+,Board Member Profiles
+,Governance Policies
+,Director Appointment Documents
 
  Policies and Procedures
-  Code of Conduct
-  Conflict of Interest Policy
-  Whistleblowing Policy
-  Other Policies and Procedures
+,Code of Conduct
+,Conflict of Interest Policy
+,Whistleblowing Policy
+,Other Policies and Procedures
 
  Financial Management
-  Annual Reports
-  Financial Statements
-  Tax Filings
-  Other Financial Documents
+,Annual Reports
+,Financial Statements
+,Tax Filings
+,Other Financial Documents
 
  Stakeholder Engagement
-  Stakeholder Engagement Plans
-  Stakeholder Feedback
-  Communication Strategies
-  Other Stakeholder Engagement Documents
+,Stakeholder Engagement Plans
+,Stakeholder Feedback
+,Communication Strategies
+,Other Stakeholder Engagement Documents
 
  Regulatory Compliance
-  Legal and Regulatory Filings
-  Licenses and Permits
-  Compliance Policies
-  Other Compliance Documents
+,Legal and Regulatory Filings
+,Licenses and Permits
+,Compliance Policies
+,Other Compliance Documents
 
  Risk Management
-  Risk Assessments
-  Risk Management Plans
-  Insurance Policies
-  Other Risk Management Documents
+,Risk Assessments
+,Risk Management Plans
+,Insurance Policies
+,Other Risk Management Documents
 
  Asset Management
-  Property Documents
-  Equipment Documents
-  Inventory Documents
-  Other Asset Management Documents
+,Property Documents
+,Equipment Documents
+,Inventory Documents
+,Other Asset Management Documents
 
  IT and Software
-  IT Infrastructure Documents
-  Software Systems Documents
-  Cybersecurity Policies
-  Other IT and Software Documents
+,IT Infrastructure Documents
+,Software Systems Documents
+,Cybersecurity Policies
+,Other IT and Software Documents
 
  Intellectual Property
-  Patents
-  Trademarks
-  Copyrights
-  Other Intellectual Property Documents
+,Patents
+,Trademarks
+,Copyrights
+,Other Intellectual Property Documents
 
  Compliance Software
-  Risk Management Software
-  Compliance Tracking Systems
-  Regulatory Reporting Tools
-  Other Compliance Software Documents
+,Risk Management Software
+,Compliance Tracking Systems
+,Regulatory Reporting Tools
+,Other Compliance Software Documents
 
  Asset Tracking Software
-  Asset Management Systems
-  Inventory Management Tools
-  Asset Tracking Software Documents
-  Other Asset Tracking Software Documents
+,Asset Management Systems
+,Inventory Management Tools
+,Asset Tracking Software Documents
+,Other Asset Tracking Software Documents
 
  Human Resources
-  Employment Contracts
-  Job Descriptions
-  Employee Handbooks
-  Performance Management Policies
-  Other Human Resources Documents
+,Employment Contracts
+,Job Descriptions
+,Employee Handbooks
+,Performance Management Policies
+,Other Human Resources Documents
 
  Marketing and Communications
-  Branding Guidelines
-  Social Media Policies
-  Public Relations Strategies
-  Other Marketing and Communications Documents
+,Branding Guidelines
+,Social Media Policies
+,Public Relations Strategies
+,Other Marketing and Communications Documents
 
  Grants and Funding
-  Grant Applications
-  Fundraising Plans
-  Financial Reports to Funders
-  Other Grants and Funding Documents
+,Grant Applications
+,Fundraising Plans
+,Financial Reports to Funders
+,Other Grants and Funding Documents
 
  Community Impact
-  Impact Reports
-  Community Engagement Strategies
-  Environmental Policies
-  Other Community Impact Documents
+,Impact Reports
+,Community Engagement Strategies
+,Environmental Policies
+,Other Community Impact Documents
 
  Membership and Stakeholders
-  Membership Policies
-  Stakeholder Engagement Plans
-  Communication Strategies
-  Other Membership and Stakeholder Documents
+,Membership Policies
+,Stakeholder Engagement Plans
+,Communication Strategies
+,Other Membership and Stakeholder Documents
 
  Partnerships and Collaborations
-  Joint Venture Agreements
-  Collaboration Plans
-  Partnership Policies
-  Other Partnerships and Collaborations Documents
+,Joint Venture Agreements
+,Collaboration Plans
+,Partnership Policies
+,Other Partnerships and Collaborations Documents
 
  Events and Outreach
-  Event Planning Documents
-  Outreach Strategies
-  Attendance Reports
-  Other Events and Outreach
+,Event Planning Documents
+,Outreach Strategies
+,Attendance Reports
+,Other Events and Outreach
+
+* Minimum Roles
+
+
+To establish a UK CIC based on the regulations:
+
+At least one director: The director(s) will be responsible for the day-to-day running of the CIC.
+
+At least one secretary: The secretary will be responsible for keeping the CIC's records and minutes of meetings.
+
+At least one treasurer: The treasurer will be responsible for keeping the CIC's finances.
+
+In addition to these minimum requirements, it is also advisable to have a board of directors. The board of directors will be responsible for setting the CIC's strategic direction and overseeing the work of the directors.
+
+
+The size of the team will vary depending on the size and complexity of the CIC. However, it is important to have a team that has the skills and experience necessary to run the CIC effectively.
+
+Here are some of the skills and experience that are desirable for team members of a UK CIC:
+
+Business administration: This includes knowledge of accounting, finance, and marketing.
+
+Law: This includes knowledge of company law, charity law, and data protection law.
+
+Project management: This includes the ability to plan and manage projects effectively.
+
+Communication: This includes the ability to communicate effectively with stakeholders, including members, staff, funders, and the public.
+
+Teamwork: This includes the ability to work effectively as part of a team.
+
+It is also important to have team members who are committed to the CIC's mission and values.
+
+
+
+* Maximum Roles
+
+To form a comprehensive team that can handle all aspects of running an organization, consider including the following professionals:
+
+GDPR: Hire a data protection and privacy law expert to ensure your organization's compliance with the General Data Protection Regulation (GDPR) and other relevant privacy laws.
+
+Safeguarding: Engage someone experienced in safeguarding children and vulnerable adults to develop and maintain appropriate safeguarding measures.
+
+Articles of Association: Hire a lawyer to draft or review your organization's Articles of Association, ensuring they comply with legal requirements and best practices.
+
+Directors and Board: Engage someone with corporate governance experience to help manage your organization's board of directors and ensure effective decision-making.
+
+Policies and Procedures: Hire a professional experienced in writing policies and procedures to establish and maintain your organization's internal guidelines.
+
+Financial Management: Employ an accountant or financial analyst to oversee your organization's financial health and ensure responsible financial management.
+
+Stakeholder Engagement: Hire a stakeholder engagement expert to facilitate communication and collaboration between your organization and its stakeholders.
+
+Regulatory Compliance: Engage a regulatory compliance professional to ensure your organization meets all legal and regulatory requirements.
+
+Risk Management: Hire a risk management expert to identify and mitigate potential risks facing your organization.
+
+Asset Management: Employ an asset management professional to manage and optimize your organization's assets.
+
+IT and Software: Hire an IT professional to maintain and improve your organization's technology infrastructure.
+
+Intellectual Property: Engage a lawyer with experience in intellectual property law to protect your organization's intellectual property rights.
+
+Compliance Software: Hire an IT professional with experience in compliance software to help your organization stay compliant with relevant regulations.
+
+Asset Tracking Software: Employ an IT professional with experience in asset tracking software to manage and track your organization's assets.
+
+Human Resources: Hire a human resources professional to manage your organization's staffing and employee relations.
+
+Marketing and Communications: Engage a marketing professional to oversee your organization's marketing and communication efforts.
+
+Grants and Funding: Hire a grant writer or fundraising professional to secure financial resources for your organization.
+
+Community Impact: Employ a community relations professional to assess and enhance your organization's impact on the community.
+
+Membership and Stakeholders: Hire a membership or stakeholder relations professional to manage relationships with members and other stakeholders.
+
+Partnerships and Collaborations: Engage a partnerships or collaboration professional to form strategic alliances and collaborative initiatives.
+
+Events and Outreach: Hire an events or outreach professional to plan and execute your organization's events and outreach activities.
