@@ -2,7 +2,7 @@
 
 
 
-DocuEase aims to revolutionize document creation and maintenance for organizations by leveraging AI technology to streamline the process of drafting and updating legal, regulatory, safeguarding, and other crucial forms and documents. By incorporating a human-in-the-loop approach, DocuEase ensures the quality and compliance of the final documents while minimizing the time and effort required by human experts.
+DocumentDarling, aims to revolutionize document creation and maintenance for organizations by leveraging AI technology to streamline the process of drafting and updating legal, regulatory, safeguarding, and other crucial forms and documents. By incorporating a human-in-the-loop approach, DocumentDarling, ensures the quality and compliance of the final documents while minimizing the time and effort required by human experts.
 
 Objectives:
 
@@ -15,7 +15,7 @@ Key Features:
 
 AI-Powered Document Analysis: The system analyzes existing documents, identifies areas of improvement, and suggests updates according to the latest legal, regulatory, and safeguarding requirements.
 
-Guided Document Creation: DocuEase provides users with templates and guidelines for creating new documents, helping to ensure consistency and compliance with the master communications policy.
+Guided Document Creation: DocumentDarling, provides users with templates and guidelines for creating new documents, helping to ensure consistency and compliance with the master communications policy.
 
 Document Organization Assistance: The AI helps users categorize and store documents based on their content, making it easier to locate and manage essential records.
 
@@ -35,7 +35,7 @@ Next Steps:
 Develop a prototype of the AI-powered document analysis and creation system.
 Conduct user testing and gather feedback to refine the system.
 Establish partnerships with legal and regulatory experts to ensure compliance with industry standards.
-Promote DocuEase through marketing campaigns targeting organizations in need of document management solutions.
+Promote DocumentDarling, through marketing campaigns targeting organizations in need of document management solutions.
 Continuously improve the system by incorporating user feedback and updating the AI to account for evolving legal, regulatory, and safeguarding requirements.
 
 The idea was born of need for a system like this before we embarked on the EXAR-Wellbeing journey! 
@@ -604,7 +604,7 @@ IT and Software: Hire an IT professional to maintain and improve your organizati
 
 Intellectual Property: Engage a lawyer with experience in intellectual property law to protect your organization's intellectual property rights.
 
-Compliance Software: Hire an IT professional with experience in compliance software to help your organization stay compliant with relevant regulations.
+Compliance Software: Hire an IT professional with experience in compliance software to help your ocueorganization stay compliant with relevant regulations.
 
 Asset Tracking Software: Employ an IT professional with experience in asset tracking software to manage and track your organization's assets.
 
