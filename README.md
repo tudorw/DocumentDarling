@@ -38,7 +38,16 @@ The .bat file will create the following folder structure on Windows.
 ,Incident Reporting Procedures
 ,Risk Assessments
 ,Other Safeguarding-related Documents
-
+{
+- Safeguarding Officer
+- Child Protection Officer
+- Vulnerable Adult Support Worker
+- Safeguarding Coordinator
+- Child Protection Advisor
+- Safeguarding Manager
+- Vulnerable Adult Protection Specialist
+- Safeguarding Trainer/Consultant
+}
  Articles of Association
 ,Articles of Association Document
 ,Amendment Documents
