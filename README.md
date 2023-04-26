@@ -2,7 +2,41 @@
 
 
 
-This project aims to take the pain out of creating and maintaining documents including legal, regulatory, safeguarding and many other forms and documents for organisationd, AI will (eventually!) regularly reviews documents suitability and the system automates the process to keep a human in the loop to approve changes, completed documents are always signed off by a human, an AI can alert the user to possible changes, and make suggestions as to what changes would meet the new requirements, it can also assist users not familiar with the system on where to place documents based on their content, and approve tone and content according to a master communications policy.
+DocuEase aims to revolutionize document creation and maintenance for organizations by leveraging AI technology to streamline the process of drafting and updating legal, regulatory, safeguarding, and other crucial forms and documents. By incorporating a human-in-the-loop approach, DocuEase ensures the quality and compliance of the final documents while minimizing the time and effort required by human experts.
+
+Objectives:
+
+Automate document creation and maintenance to save time and reduce errors.
+Utilize AI to review document suitability and suggest updates in line with new requirements.
+Assist users in document organization and placement based on content.
+Ensure the tone and content of documents adhere to a master communications policy.
+Maintain human oversight to approve changes and sign off on completed documents.
+Key Features:
+
+AI-Powered Document Analysis: The system analyzes existing documents, identifies areas of improvement, and suggests updates according to the latest legal, regulatory, and safeguarding requirements.
+
+Guided Document Creation: DocuEase provides users with templates and guidelines for creating new documents, helping to ensure consistency and compliance with the master communications policy.
+
+Document Organization Assistance: The AI helps users categorize and store documents based on their content, making it easier to locate and manage essential records.
+
+Tone and Content Approval: The AI checks documents for adherence to the organization's master communications policy, ensuring that all content is consistent and professional.
+
+Human-in-the-loop Oversight: The system keeps a human in the loop to approve AI-suggested changes and sign off on completed documents, ensuring the highest level of accuracy and compliance.
+
+Benefits:
+
+Improved efficiency in document creation and maintenance processes.
+Enhanced compliance with legal, regulatory, and safeguarding requirements.
+Reduced risk of human error and inconsistencies in documentation.
+Streamlined document organization and management.
+Increased user satisfaction and ease of use.
+Next Steps:
+
+Develop a prototype of the AI-powered document analysis and creation system.
+Conduct user testing and gather feedback to refine the system.
+Establish partnerships with legal and regulatory experts to ensure compliance with industry standards.
+Promote DocuEase through marketing campaigns targeting organizations in need of document management solutions.
+Continuously improve the system by incorporating user feedback and updating the AI to account for evolving legal, regulatory, and safeguarding requirements.
 
 The idea was born of need for a system like this before we embarked on the EXAR-Wellbeing journey! 
 https://exar-wellbeing.org.uk/
