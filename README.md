@@ -148,6 +148,22 @@ The .bat file will create the following folder structure on Windows.
 ,Attendance Reports
 ,Other Events and Outreach
 
+Sure, here is a possible way to group the roles for a team of 5 people, with one person good at comms, one tech, one admin, one can do anything and one can do just a little:
+
+
+Comms: This person would be responsible for all communication with the team and with stakeholders. This could include writing emails, creating presentations, and giving speeches.
+
+Tech: This person would be responsible for all technical aspects of the team's work. This could include setting up and maintaining the team's website, creating and managing databases, and developing software.
+
+Admin: This person would be responsible for all administrative tasks for the team. This could include managing the team's budget, scheduling meetings, and ordering supplies.
+
+Jack-of-all-trades: This person would be able to do a little bit of everything. They could help out with comms, tech, and admin tasks, as well as other tasks as needed.
+
+Can-do: This person is willing to learn and help out with whatever is needed. They may not be an expert in any one area, but they are always willing to pitch in.
+
+This is just one possible way to group the roles for a team of 5 people. The best way to group the roles will depend on the specific needs of the team and the tasks that need to be completed. However, by considering the skills and experience of the team members and the different tasks that need to be completed, you can create a team that is effective and efficient.
+
+
 * Minimum Roles
 
 
