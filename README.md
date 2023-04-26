@@ -2,7 +2,8 @@
 
 
 
-This project aims to take the pain out of creating and maintaining documents including legal, regulatory, safeguarding and many other forms and documents for organisationd, AI will (eventually!) regularly reviews documents suitability and automates a human in the loop to approve changes.
+This project aims to take the pain out of creating and maintaining documents including legal, regulatory, safeguarding and many other forms and documents for organisationd, AI will (eventually!) regularly reviews documents suitability and the system automates the process to keep a human in the loop to approve changes, completed documents are always signed off by a human, an AI can alert the user to possible changes, and make suggestions as to what changes would meet the new requirements, it can also assist users not familiar with the system on where to place documents based on their content, and approve tone and content according to a master communications policy.
+
 
 * Features: My project has the following features:
     * A Generic Folder Structure To Store Documents Logically.
