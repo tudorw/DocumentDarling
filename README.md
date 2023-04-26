@@ -107,41 +107,145 @@ Independent directors: An independent director is a director who is not an execu
 
 }
  Policies and Procedures
+ 
+ {
+ Human Resources (HR) Department: The HR department is responsible for developing and implementing policies and procedures that govern the company's workforce. This includes policies and procedures on hiring, firing, compensation, benefits, and other matters.
+ 
+Legal Department: The legal department is responsible for providing legal advice to the company on a variety of matters, including the development and implementation of policies and procedures.
+
+Compliance Officer: The compliance officer is responsible for ensuring that the company complies with all applicable laws and regulations. This includes policies and procedures that are designed to comply with laws and regulations.
+
+Senior Management: Senior management is responsible for setting the company's overall direction and strategy. This includes approving policies and procedures that are consistent with the company's goals and objectives.
+
+Employees: Employees are responsible for following the company's policies and procedures. This includes policies and procedures that are designed to protect the company's interests and the interests of its employees.
+ }
 ,Code of Conduct
 ,Conflict of Interest Policy
 ,Whistleblowing Policy
 ,Other Policies and Procedures
 
+{
+Human Resources (HR) Department: The HR department is responsible for developing and implementing policies and procedures that govern the company's workforce. This includes policies and procedures on hiring, firing, compensation, benefits, and other matters.
+
+Legal Department: The legal department is responsible for providing legal advice to the company on a variety of matters, including the development and implementation of policies and procedures.
+
+Compliance Officer: The compliance officer is responsible for ensuring that the company complies with all applicable laws and regulations. This includes policies and procedures that are designed to comply with laws and regulations.
+
+Senior Management: Senior management is responsible for setting the company's overall direction and strategy. This includes approving policies and procedures that are consistent with the company's goals and objectives.
+
+Employees: Employees are responsible for following the company's policies and procedures. This includes policies and procedures that are designed to protect the company's interests and the interests of its employees.
+
+}
  Financial Management
 ,Annual Reports
 ,Financial Statements
 ,Tax Filings
 ,Other Financial Documents
 
+{
+
+CFO: The CFO is the Chief Financial Officer of a company. The CFO is responsible for the company's financial management, including financial planning, budgeting, accounting, and reporting.
+
+Controller: The controller is the second-in-command to the CFO. The controller is responsible for the day-to-day financial operations of the company, including accounts payable, accounts receivable, and treasury management.
+
+Accountant: An accountant is a professional who is trained in the accounting and financial reporting process. Accountants can work in a variety of settings, including public accounting firms, private companies, and government agencies.
+
+Tax Preparer: A tax preparer is a professional who is trained in the preparation of tax returns. Tax preparers can work in a variety of settings, including public accounting firms, private companies, and government agencies.
+
+Financial Analyst: A financial analyst is a professional who analyzes financial data to make investment decisions. Financial analysts can work in a variety of settings, including investment banks, hedge funds, and private equity firms.
+
+}
  Stakeholder Engagement
 ,Stakeholder Engagement Plans
 ,Stakeholder Feedback
 ,Communication Strategies
 ,Other Stakeholder Engagement Documents
 
+{
+
+Stakeholder Engagement Manager: A stakeholder engagement manager is responsible for developing and implementing a stakeholder engagement plan. They work with stakeholders to understand their needs and concerns, and they develop strategies to address those needs and concerns.
+
+Stakeholder Analyst: A stakeholder analyst is responsible for gathering and analyzing stakeholder feedback. They use this feedback to develop strategies to improve stakeholder engagement.
+
+Communication Manager: A communication manager is responsible for developing and implementing communication strategies. They work with stakeholders to ensure that they are kept informed of the company's activities and that they have a voice in decision-making.
+
+Other Stakeholder Engagement Professionals: There are a number of other professionals who can be involved in stakeholder engagement, such as:
+Community Organizers: Community organizers work with communities to identify and address their needs.
+
+Public Relations Professionals: Public relations professionals help companies to build positive relationships with the public.
+
+Government Relations Professionals: Government relations professionals help companies to navigate the regulatory environment.
+
+Investor Relations Professionals: Investor relations professionals help companies to communicate with their investors.
+}
  Regulatory Compliance
 ,Legal and Regulatory Filings
 ,Licenses and Permits
 ,Compliance Policies
 ,Other Compliance Documents
 
+{
+
+Compliance Officer: A compliance officer is responsible for ensuring that a company complies with all applicable laws and regulations. This includes developing and implementing compliance policies and procedures, monitoring compliance, and conducting audits.
+
+Legal Department: The legal department is responsible for providing legal advice to the company on a variety of matters, including compliance with laws and regulations.
+
+Internal Audit Department: The internal audit department is responsible for conducting independent audits of the company's operations, including compliance with laws and regulations.
+
+Senior Management: Senior management is responsible for setting the company's overall direction and strategy. This includes approving compliance policies and procedures and ensuring that the company is in compliance with laws and regulations.
+
+Employees: Employees are responsible for following the company's compliance policies and procedures. This includes policies and procedures that are designed to protect the company's interests and the interests of its employees.
+
+}
  Risk Management
 ,Risk Assessments
 ,Risk Management Plans
 ,Insurance Policies
 ,Other Risk Management Documents
 
+{
+
+Risk Management Officer: A risk management officer is responsible for developing and implementing a risk management framework. They work with stakeholders to identify and assess risks, and they develop strategies to mitigate those risks.
+
+Risk Analyst: A risk analyst is responsible for gathering and analyzing risk data. They use this data to develop risk assessments and to identify trends.
+
+Risk Manager: A risk manager is responsible for overseeing the risk management process. They ensure that the risk management framework is effective and that the company is taking steps to mitigate risks.
+
+Other Risk Management Professionals: There are a number of other professionals who can be involved in risk management, such as:
+
+Insurance Professionals: Insurance professionals help companies to protect themselves against financial losses.
+
+Security Professionals: Security professionals help companies to protect themselves against physical and cyber threats.
+
+Contingency Planners: Contingency planners help companies to develop plans to deal with unexpected events.
+
+}
  Asset Management
 ,Property Documents
 ,Equipment Documents
 ,Inventory Documents
 ,Other Asset Management Documents
 
+{
+
+Asset Manager: An asset manager is responsible for the overall management of a company's assets. This includes the identification, valuation, acquisition, disposal, and maintenance of assets.
+
+Property Manager: A property manager is responsible for the day-to-day management of a company's properties. This includes the leasing, maintenance, and repair of properties.
+
+Equipment Manager: An equipment manager is responsible for the day-to-day management of a company's equipment. This includes the procurement, maintenance, and repair of equipment.
+
+Inventory Manager: An inventory manager is responsible for the day-to-day management of a company's inventory. This includes the ordering, receiving, storing, and issuing of inventory.
+
+Other Asset Management Professionals: There are a number of other professionals who can be involved in asset management, such as:
+
+Accountants: Accountants can help to track the value of assets and to prepare financial statements that reflect the company's assets.
+
+Lawyers: Lawyers can help to draft contracts and to advise the company on legal matters related to assets.
+
+Insurance Professionals: Insurance professionals can help to protect the company against losses that may occur to its assets.
+
+
+}
  IT and Software
 ,IT Infrastructure Documents
 ,Software Systems Documents
