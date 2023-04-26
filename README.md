@@ -1,11 +1,11 @@
-### DocumentDarling
-##An idea born of neccesity for the EXAR-Wellbeing journey! https://exar-wellbeing.org.uk/
+# DocumentDarling
+**An idea born of neccesity for the EXAR-Wellbeing journey! https://exar-wellbeing.org.uk/**
 
 
 
 DocumentDarling, aims to revolutionize document creation and maintenance for organizations by leveraging AI technology to streamline the process of drafting and updating legal, regulatory, safeguarding, and other crucial forms and documents. By incorporating a human-in-the-loop approach, DocumentDarling, ensures the quality and compliance of the final documents while minimizing the time and effort required by human experts.
 
-Objectives:
+##**Objectives:**
 
 Automate document creation and maintenance to save time and reduce errors.
 Utilize AI to review document suitability and suggest updates in line with new requirements.
@@ -24,14 +24,16 @@ Tone and Content Approval: The AI checks documents for adherence to the organiza
 
 Human-in-the-loop Oversight: The system keeps a human in the loop to approve AI-suggested changes and sign off on completed documents, ensuring the highest level of accuracy and compliance.
 
-Benefits:
+##**Benefits:**
 
 Improved efficiency in document creation and maintenance processes.
 Enhanced compliance with legal, regulatory, and safeguarding requirements.
 Reduced risk of human error and inconsistencies in documentation.
 Streamlined document organization and management.
 Increased user satisfaction and ease of use.
-Next Steps:
+
+
+##Next Steps:
 
 Develop a prototype of the AI-powered document analysis and creation system.
 Conduct user testing and gather feedback to refine the system.
@@ -42,33 +44,53 @@ Continuously improve the system by incorporating user feedback and updating the 
 The idea was born of need for a system like this before we embarked on the EXAR-Wellbeing journey! 
 https://exar-wellbeing.org.uk/
 
+Next Steps, a technical roadmap
+Define project scope and requirements: Begin by clearly defining the project scope, including the specific features and functionalities of the prototype. List down the requirements and prioritize them based on their importance and feasibility.
+
+Research libraries and APIs: Investigate existing Python libraries, APIs, and tools that can be utilized to facilitate document parsing, analysis, and natural language processing, such as SpaCy, NLTK, Gensim, and the OpenAI API.
+
+Set up a version control system: Establish a version control system, like Git, to manage your codebase and track changes throughout the development process. This will make collaboration easier and ensure a smooth workflow.
+
+Create a development environment: Set up a dedicated development environment with the required tools, libraries, and dependencies. This may include an integrated development environment (IDE) like PyCharm or Visual Studio Code, and package management tools like pip or conda.
+
+Develop the AI-powered document analysis component: Begin by implementing the functionality to parse and analyze documents, extracting relevant information and identifying areas of improvement. Use NLP techniques to understand the content, and train your model to suggest updates based on legal, regulatory, and safeguarding requirements.
+
+Implement guided document creation: Create templates and guidelines for new documents, and develop a user interface that helps users navigate the document creation process. Integrate AI suggestions to ensure consistency and compliance with the master communications policy.
+
+Build document organization assistance: Develop a system to categorize and store documents based on their content. Implement algorithms to help users find and manage essential records more efficiently.
+
+Develop tone and content approval functionality: Implement a module to check the tone and content of documents against the organization's master communications policy. Train your AI model to recognize and suggest improvements in adherence to the policy.
+
+Integrate human-in-the-loop oversight: Design a user interface that presents AI-suggested changes to human reviewers, allowing them to approve or modify suggestions as needed. Implement a mechanism for human sign-off on completed documents.
+
+Test and iterate: Perform thorough testing of the prototype, focusing on usability, accuracy, and performance. Gather feedback from users and stakeholders, and iteratively improve the system based on their input. Continuously refine the AI model and make updates as needed to keep up with evolving legal, regulatory, and safeguarding requirements.
 Looking for volunteers, especially related to GDPR and Safeguarding, all help welcome technical or otherwise!
 
 The key roles I would like to talk with are:
 
-Document Management Specialist
+#Document Management Specialist
 
-Records Manager
+#Records Manager
 
-Information Governance Analyst
+#Information Governance Analyst
 
-Compliance Officer
+#Compliance Officer
 
-Data Protection Officer
+#Data Protection Officer
 
 
-* Features: My project has the following features:
-    * A Generic Folder Structure To Store Documents Logically.
-    * A Document Tracker to indicite the documents stored, their location, status and extended details including the role title and user associated with the approval of that document.
-    * An AI monitor can be connected to a document and provided sources for changes that would impact the documents accuracy over time.
-    * On finding changes to requirements, the AI will notify the human as indicated by the Document Tracker.
-    * Document filing assistant, will read an uploaded document and make suggestons as to where that should be filed.
-    * Granular access to limit document read and write access to appropriate roles.
-* Target audience: My project is targeted at the following audience:
-    * UK Community Interest Companies (CIC's)
-    * Any organistion seeking to improve document handling
-    * Organisations seeking to implement best practice
-    * Organisations seeking to collate and combine diverse sources of documents into a central repository
+##* Features: My project has the following features:
+    #* A Generic Folder Structure To Store Documents Logically.
+    #* A Document Tracker to indicite the documents stored, their location, status and extended details including the role title and user associated with the approval of that document.
+    #* An AI monitor can be connected to a document and provided sources for changes that would impact the documents accuracy over time.
+    #* On finding changes to requirements, the AI will notify the human as indicated by the Document Tracker.
+    #* Document filing assistant, will read an uploaded document and make suggestons as to where that should be filed.
+    #* Granular access to limit document read and write access to appropriate roles.
+#* Target audience: My project is targeted at the following audience:
+    #* UK Community Interest Companies (CIC's)
+    #* Any organistion seeking to improve document handling
+    #* Organisations seeking to implement best practice
+    #* Organisations seeking to collate and combine diverse sources of documents into a central repository
 
 Installation Instructions:
   * use the createFolders.bat file to create the folder structure on a windows PC, for other platform, this simple code can be given to Bard or chatGPT and you can ask it for a version in your preffered language.
