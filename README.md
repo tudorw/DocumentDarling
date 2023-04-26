@@ -7,6 +7,20 @@ This project aims to take the pain out of creating and maintaining documents inc
 The idea was born of need for a system like this before we embarked on the EXAR-Wellbeing journey! 
 https://exar-wellbeing.org.uk/
 
+Looking for volunteers, especially related to GDPR and Safeguarding, all help welcome technical or otherwise!
+
+The key roles I would like to talk with are:
+
+Document Management Specialist
+
+Records Manager
+
+Information Governance Analyst
+
+Compliance Officer
+
+Data Protection Officer
+
 
 * Features: My project has the following features:
     * A Generic Folder Structure To Store Documents Logically.
