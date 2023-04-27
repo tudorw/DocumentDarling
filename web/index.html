@@ -465,29 +465,290 @@
 </div>
             </div>
             <div class="tab-pane fade" id="document_approvals">
-                <!-- Document Approvals management content goes here -->
-                <!-- Add forms for creating, updating, and deleting document approvals -->
-                <!-- Add a table to display existing document approvals -->
+              <div class="tab-pane fade" id="document_approvals">
+  <h2>Document Approvals</h2>
+  
+  <!-- Add form for creating new document approvals -->
+  <form>
+    <div class="mb-3">
+      <label for="document_name" class="form-label">Document Name</label>
+      <input type="text" class="form-control" id="document_name" name="document_name">
+    </div>
+    <div class="mb-3">
+      <label for="approver" class="form-label">Approver</label>
+      <input type="text" class="form-control" id="approver" name="approver">
+    </div>
+    <div class="mb-3">
+      <label for="status" class="form-label">Status</label>
+      <select class="form-control" id="status" name="status">
+        <option value="pending">Pending</option>
+        <option value="approved">Approved</option>
+        <option value="rejected">Rejected</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  
+  <!-- Add table to display existing document approvals -->
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Document Name</th>
+        <th scope="col">Approver</th>
+        <th scope="col">Status</th>
+        <th scope="col">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Document 1</td>
+        <td>John Smith</td>
+        <td>Pending</td>
+        <td>
+          <button type="button" class="btn btn-sm btn-outline-secondary">Approve</button>
+          <button type="button" class="btn btn-sm btn-outline-secondary">Reject</button>
+        </td>
+      </tr>
+      <tr>
+        <td>Document 2</td>
+        <td>Jane Doe</td>
+        <td>Approved</td>
+        <td>
+          <button type="button" class="btn btn-sm btn-outline-secondary">Reject</button>
+        </td>
+      </tr>
+      <!-- Add more rows to display additional document approvals -->
+    </tbody>
+  </table>
+</div>
             </div>
+            <div <div class="tab-pane fade" id="notifications">
+    <h2>Notifications</h2>
+    <form>
+        <!-- Add form fields for creating new notifications -->
+        <div class="mb-3">
+            <label for="notification-title" class="form-label">Title</label>
+            <input type="text" class="form-control" id="notification-title" name="notification-title">
+        </div>
+        <div class="mb-3">
+            <label for="notification-message" class="form-label">Message</label>
+            <textarea class="form-control" id="notification-message" name="notification-message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Create Notification</button>
+    </form>
+
+    <!-- Add a table to display existing notifications -->
+    <table class="table table-striped mt-4">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Message</th>
+                <th>Date</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Add a row for each notification in the database -->
+            <tr>
+                <td>Notification Title</td>
+                <td>Notification Message</td>
+                <td>2023-04-27</td>
+                <td>
+                    <button type="button" class="btn btn-sm btn-danger">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+lass="tab-pane fade" id="notifications">
             <div class="tab-pane fade" id="notifications">
-                <!-- Notifications management content goes here -->
-                <!-- Add forms for creating, updating, and deleting notifications -->
-                <!-- Add a table to display existing notifications -->
+    <h2>Notifications</h2>
+    <form>
+        <!-- Add form fields for creating new notifications -->
+        <div class="mb-3">
+            <label for="notification-title" class="form-label">Title</label>
+            <input type="text" class="form-control" id="notification-title" name="notification-title">
+        </div>
+        <div class="mb-3">
+            <label for="notification-message" class="form-label">Message</label>
+            <textarea class="form-control" id="notification-message" name="notification-message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Create Notification</button>
+    </form>
+
+    <!-- Add a table to display existing notifications -->
+    <table class="table table-striped mt-4">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Message</th>
+                <th>Date</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Add a row for each notification in the database -->
+            <tr>
+                <td>Notification Title</td>
+                <td>Notification Message</td>
+                <td>2023-04-27</td>
+                <td>
+                    <button type="button" class="btn btn-sm btn-danger">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
             </div>
             <div class="tab-pane fade" id="document_reviews">
-                <!-- Document Reviews management content goes here -->
-                <!-- Add forms for creating, updating, and deleting document reviews -->
-                <!-- Add a table to display existing document reviews -->
+              <div class="tab-pane fade" id="document_reviews">
+  <h2>Document Reviews</h2>
+  
+  <!-- Add form for creating a new review -->
+  <form>
+    <div class="form-group">
+      <label for="document_id">Document ID:</label>
+      <input type="text" class="form-control" id="document_id" name="document_id" required>
+    </div>
+    <div class="form-group">
+      <label for="reviewer_id">Reviewer ID:</label>
+      <input type="text" class="form-control" id="reviewer_id" name="reviewer_id" required>
+    </div>
+    <div class="form-group">
+      <label for="review_text">Review Text:</label>
+      <textarea class="form-control" id="review_text" name="review_text" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  
+  <!-- Add a table to display existing reviews -->
+  <table class="table table-striped mt-4">
+    <thead>
+      <tr>
+        <th>Review ID</th>
+        <th>Document ID</th>
+        <th>Reviewer ID</th>
+        <th>Review Text</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>101</td>
+        <td>201</td>
+        <td>This is a great document!</td>
+        <td>
+          <!-- Add buttons to edit and delete reviews -->
+          <button type="button" class="btn btn-sm btn-primary">Edit</button>
+          <button type="button" class="btn btn-sm btn-danger">Delete</button>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>102</td>
+        <td>202</td>
+        <td>This document needs more work.</td>
+        <td>
+          <!-- Add buttons to edit and delete reviews -->
+          <button type="button" class="btn btn-sm btn-primary">Edit</button>
+          <button type="button" class="btn btn-sm btn-danger">Delete</button>
+        </td>
+      </tr>
+      <!-- Add more rows for each review -->
+    </tbody>
+  </table>
+</div>
+
             </div>
             <div class="tab-pane fade" id="comments">
-                <!-- Comments management content goes here -->
-                <!-- Add forms for creating, updating, and deleting comments -->
-                <!-- Add a table to display existing comments -->
+          <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" href="#comments">Comments</a>
+</li>
+
+<div class="tab-pane fade" id="comments">
+    <h2>Comments</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Create Comment</h3>
+            <form>
+                <div class="mb-3">
+                    <label for="document-select" class="form-label">Select Document</label>
+                    <select class="form-select" id="document-select">
+                        <option selected disabled>Select a document</option>
+                        <option value="doc1">Document 1</option>
+                        <option value="doc2">Document 2</option>
+                        <option value="doc3">Document 3</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="comment-text" class="form-label">Comment</label>
+                    <textarea class="form-control" id="comment-text" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <h3>Existing Comments</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Document</th>
+                        <th scope="col">Comment</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Document 1</td>
+                        <td>This is a comment.</td>
+                        <td>
+                            <button type="button" class="btn btn-primary btn-sm">Edit</button>
+                            <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Document 2</td>
+                        <td>Another comment.</td>
+                        <td>
+                            <button type="button" class="btn btn-primary btn-sm">Edit</button>
+                            <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
             </div>
             <div class="tab-pane fade" id="document_templates">
-                <!-- Document Templates management content goes here -->
-                <!-- Add forms for creating, updating, and deleting document templates -->
-                <!-- Add a table to display existing document templates -->
+              <div class="tab-pane fade" id="document_templates">
+    <h2>Document Templates</h2>
+
+    <form>
+        <!-- Add form fields for creating new document templates -->
+    </form>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Add table rows for displaying existing document templates -->
+        </tbody>
+    </table>
+</div>
+
             </div>
         </div>
 
