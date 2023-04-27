@@ -53,6 +53,7 @@
             <a class="nav-link" data-bs-toggle="tab" href="#document_templates">Document Templates</a>
         </li>
     </ul>
+
     <div class="tab-content">
         <div class="tab-pane fade show active" id="users">
             <h2 class="mt-3">Create User</h2>
@@ -98,7 +99,7 @@
                 </tbody>
             </table>
         </div>
-        <div class="tab-pane fade" id="documents">
+        <div class="tab-pane fade show " id="documents">
             <div class="container mt-4">
                 <h2>Create Document</h2>
                 <form id="create-document-form" name="create-document-form">
@@ -130,7 +131,7 @@
                 </table>
             </div>
         </div>
-        <div class="tab-pane fade show active" id="suggestions">
+        <div class="tab-pane fade show" id="suggestions">
             <!-- Suggestion management content goes here -->
             <h2 class="mt-3">Add Suggestion</h2>
             <form action="/suggestions" method="post">
@@ -169,7 +170,7 @@
                 </tbody>
             </table>
         </div>
-        <div class="tab-pane fade show active" id="document_versions">
+        <div class="tab-pane fade show" id="document_versions">
             <h2>Document Versions</h2>
             <form>
                 <div class="mb-3">
@@ -220,7 +221,7 @@
                 </tbody>
             </table>
         </div>
-        <div class="tab-pane fade show active" id="document_tags">
+        <div class="tab-pane fade show" id="document_tags">
             <h2>Document Tags</h2>
             <div class="mb-3">
                 <a href="#new-tag-form" data-bs-toggle="collapse" role="button" aria-expanded="false"
@@ -253,7 +254,7 @@
                 </table>
             </div>
         </div>
-        <div class="tab-pane fade show active" id="document_history">
+        <div class="tab-pane fade show" id="document_history">
             <h2>Document History</h2>
             <form>
                 <div class="mb-3">
@@ -293,7 +294,7 @@
                 </tbody>
             </table>
         </div>
-        <div class="tab-pane fade show active" id="roles">
+        <div class="tab-pane fade show" id="roles">
             <h2>Roles</h2>
             <form>
                 <div class="mb-3">
@@ -308,7 +309,7 @@
             </form>
             <hr>
         </div>
-        <div class="tab-pane fade show active" id="users_roles">
+        <div class="tab-pane fade show" id="users_roles">
             <h3>Create User-Role Association</h3>
             <div class="mb-3">
                 <label for="user_id" class="form-label">User ID:</label> <input type="text" class="form-control"
@@ -385,7 +386,7 @@
                 </tbody>
             </table>
         </div>
-        <div class="tab-pane fade show active" id="ai_models">
+        <div class="tab-pane fade show" id="ai_models">
             <h2>AI Models</h2><!-- Add a form to create a new AI model -->
             <form>
                 <h3>Create a new AI model</h3>
@@ -434,7 +435,7 @@
                 </tbody>
             </table>
         </div>
-        <div class="tab-pane fade show active" id="document_approvals">
+        <div class="tab-pane fade show" id="document_approvals">
             <h2>Document Approvals</h2><!-- Add form for creating new document approvals -->
             <form>
                 <div class="mb-3">
@@ -493,7 +494,7 @@
                 </tbody>
             </table>
         </div>
-        <div class="tab-pane fade show active" id="notifications">
+        <div class="tab-pane fade show" id="notifications">
             <h2>Notifications</h2>
             <form>
                 <!-- Add form fields for creating new notifications -->
@@ -531,7 +532,7 @@
                 </tbody>
             </table>
         </div>
-        <div class="tab-pane fade show active" id="document_reviews">
+        <div class="tab-pane fade show" id="document_reviews">
             <h2>Document Reviews</h2><!-- Add form for creating a new review -->
             <form>
                 <div class="form-group">
@@ -584,7 +585,7 @@
                 </tbody>
             </table>
         </div>
-        <div class="tab-pane fade" id="comments">
+        <div class="tab-pane fade show" id="comments">
             <h2>Comments</h2>
             <div class="row">
                 <div class="col-md-6">
@@ -649,7 +650,7 @@
                 </div>
             </div>
         </div>
-        <div class="tab-pane fade" id="document_templates">
+        <div class="tab-pane fade show" id="document_templates">
             <h2>Document Templates</h2>
             <form>
                 <!-- Add form fields for creating new document templates -->
