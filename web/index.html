@@ -59,15 +59,78 @@
 
         <div class="tab-content">
             <div class="tab-pane fade show active" id="users">
-                <!-- User management content goes here -->
-                <!-- Add forms for creating, updating, and deleting users -->
-                <!-- Add a table to display existing users -->
+             <h2 class="mt-3">Create User</h2>
+                <form id="create-user-form">
+                    <div class="mb-3">
+                        <label for="create-username" class="form-label">Username</label>
+                        <input type="text" class="form-control" id="create-username" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="create-email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="create-email" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Create</button>
+                </form>
+                
+                <h2 class="mt-5">Update User</h2>
+                <form id="update-user-form">
+                    <div class="mb-3">
+                        <label for="update-username" class="form-label">Username</label>
+                        <input type="text" class="form-control" id="update-username" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="update-email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="update-email" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Update</button>
+                </form>
+
+                <h2 class="mt-5">Existing Users</h2>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Username</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="users-table">
+                        <!-- The table rows will be dynamically populated -->
+                    </tbody>
+                </table>
             </div>
             <div class="tab-pane fade" id="documents">
                
- <!-- Document management content goes here -->
-                <!-- Add forms for creating, updating, and deleting documents -->
-                <!-- Add a table to display existing documents -->
+<div class="container mt-4">
+    <h2>Create Document</h2>
+    <form id="create-document-form">
+        <div class="mb-3">
+            <label for="document-title" class="form-label">Title</label>
+            <input type="text" class="form-control" id="document-title" required>
+        </div>
+        <div class="mb-3">
+            <label for="document-content" class="form-label">Content</label>
+            <textarea class="form-control" id="document-content" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Create</button>
+    </form>
+    
+    <h2 class="mt-5">Existing Documents</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Title</th>
+                <th scope="col">Content</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody id="document-table-body">
+            <!-- Existing documents will be listed here -->
+        </tbody>
+    </table>
+</div>
             </div>
             <div class="tab-pane fade" id="suggestions">
                 <!-- Suggestion management content goes here -->
