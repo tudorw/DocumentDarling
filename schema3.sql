@@ -14,6 +14,9 @@ CREATE TABLE users (
   last_name VARCHAR(255) NOT NULL
 );
 
+CREATE INDEX idx_users_email ON users (email);
+CREATE INDEX idx_users_username ON users (username);
+
 CREATE TABLE documents (
   id SERIAL PRIMARY KEY,
   title VARCHAR(255) NOT NULL,
@@ -25,6 +28,11 @@ CREATE TABLE documents (
   author_id INT NOT NULL REFERENCES users (id),
   template_id INT REFERENCES templates (id)
 );
+
+CREATE INDEX idx_documents_author_id ON documents (author_id);
+CREATE INDEX idx_documents_template_id ON documents (template_id);
+CREATE INDEX idx_documents_approval_status ON documents (approval_status);
+CREATE INDEX idx_documents_compliance_status ON documents (compliance_status);
 
 CREATE TABLE templates (
   id SERIAL PRIMARY KEY,
@@ -41,6 +49,10 @@ CREATE TABLE suggestions (
   document_id INT NOT NULL REFERENCES documents (id),
   author_id INT NOT NULL REFERENCES users (id)
 );
+
+CREATE INDEX idx_suggestions_document_id ON suggestions (document_id);
+CREATE INDEX idx_suggestions_author_id ON suggestions (author_id);
+CREATE INDEX idx_suggestions_status ON suggestions (status);
 
 CREATE TABLE document_versions (
   id SERIAL PRIMARY KEY,
@@ -128,3 +140,8 @@ CREATE TABLE ai_analysis_requests (
   created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   analysis_result TEXT
 );
+
+CREATE INDEX idx_ai_analysis_requests_document_id ON ai_analysis_requests (document_id);
+CREATE INDEX idx_ai_analysis_requests_status ON ai_analysis_requests (status);
+
+
