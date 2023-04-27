@@ -132,41 +132,337 @@
     </table>
 </div>
             </div>
-            <div class="tab-pane fade" id="suggestions">
+             <div class="tab-pane fade show active" id="suggestions">
                 <!-- Suggestion management content goes here -->
-                <!-- Add forms for creating, updating, and deleting suggestions -->
-                <!-- Add a table to display existing suggestions -->
+                <h2 class="mt-3">Add Suggestion</h2>
+                <form action="/suggestions" method="post">
+                    <div class="mb-3">
+                        <label for="suggestion_text" class="form-label">Suggestion Text</label>
+                        <input type="text" class="form-control" id="suggestion_text" name="suggestion_text">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+                <h2 class="mt-5">View Existing Suggestions</h2>
+                <table class="table mt-3">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Suggestion Text</th>
+                            <th scope="col">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Improve document search functionality</td>
+                            <td>
+                                <a href="#" class="btn btn-sm btn-primary">Edit</a>
+                                <a href="#" class="btn btn-sm btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Add option to export documents as PDF</td>
+                            <td>
+                                <a href="#" class="btn btn-sm btn-primary">Edit</a>
+                                <a href="#" class="btn btn-sm btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                        <!-- Add dynamic rendering of existing suggestions here -->
+                    </tbody>
+                </table>
             </div>
             <!-- Additional content panes for each table in the schema -->
             <div class="tab-pane fade" id="document_versions">
-                <!-- Document Versions management content goes here -->
-                <!-- Add forms for creating, updating, and deleting document versions -->
-                <!-- Add a table to display existing document versions -->
+              <div class="tab-pane fade" id="document_versions">
+  <form>
+    <div class="mb-3">
+      <label for="document_version_number" class="form-label">Version Number</label>
+      <input type="number" class="form-control" id="document_version_number" name="document_version_number" required>
+    </div>
+    <div class="mb-3">
+      <label for="document_version_file" class="form-label">File</label>
+      <input type="file" class="form-control" id="document_version_file" name="document_version_file" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+  </form>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Version Number</th>
+        <th>File</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>document_v1.pdf</td>
+        <td>
+          <a href="#" class="btn btn-sm btn-primary">View</a>
+          <a href="#" class="btn btn-sm btn-warning">Edit</a>
+          <form style="display: inline;" method="POST" action="/document_versions/delete/1">
+            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>document_v2.pdf</td>
+        <td>
+          <a href="#" class="btn btn-sm btn-primary">View</a>
+          <a href="#" class="btn btn-sm btn-warning">Edit</a>
+          <form style="display: inline;" method="POST" action="/document_versions/delete/2">
+            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+          </form>
+        </td>
+      </tr>
+      <!-- Add more rows to display additional document versions -->
+    </tbody>
+  </table>
+</div>
+
             </div>
             <div class="tab-pane fade" id="document_tags">
-                <!-- Document Tags management content goes here -->
-                <!-- Add forms for creating, updating, and deleting document tags -->
-                <!-- Add a table to display existing document tags -->
+             <div class="tab-pane fade" id="document_tags">
+  <h2>Document Tags</h2>
+  <div class="mb-3">
+    <a href="#new-tag-form" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="new-tag-form">New Tag</a>
+    <a href="#tag-list" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="tag-list">Tag List</a>
+  </div>
+  <div class="collapse" id="new-tag-form">
+    <form id="new-tag-form">
+      <div class="mb-3">
+        <label for="tag-name" class="form-label">Tag Name</label>
+        <input type="text" class="form-control" id="tag-name" name="tag-name" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Create Tag</button>
+    </form>
+  </div>
+  <div class="collapse" id="tag-list">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Tag Name</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="tag-table-body">
+        <!-- table rows for displaying existing tags will be added dynamically -->
+      </tbody>
+    </table>
+  </div>
+</div>
+
             </div>
             <div class="tab-pane fade" id="document_history">
-                <!-- Document History management content goes here -->
-                <!-- Add forms for creating, updating, and deleting document history entries -->
-                <!-- Add a table to display existing document history entries -->
+              <div class="tab-pane fade" id="document_history">
+    <h2>Document History</h2>
+    <form>
+        <div class="mb-3">
+            <label for="document_id" class="form-label">Document ID</label>
+            <input type="text" class="form-control" id="document_id" name="document_id" required>
+        </div>
+        <div class="mb-3">
+            <label for="user_id" class="form-label">User ID</label>
+            <input type="text" class="form-control" id="user_id" name="user_id" required>
+        </div>
+        <div class="mb-3">
+            <label for="change_description" class="form-label">Change Description</label>
+            <input type="text" class="form-control" id="change_description" name="change_description" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Change</button>
+    </form>
+
+    <hr>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Change ID</th>
+                <th>Document ID</th>
+                <th>User ID</th>
+                <th>Change Description</th>
+                <th>Timestamp</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Use server-side scripting to fetch and display existing document history records -->
+        </tbody>
+    </table>
+</div>
+
             </div>
             <div class="tab-pane fade" id="roles">
-                <!-- Roles management content goes here -->
-                <!-- Add forms for creating, updating, and deleting roles -->
-                <!-- Add a table to display existing roles -->
+               <div class="tab-pane fade" id="roles">
+  <h2>Roles</h2>
+
+  <form>
+    <div class="mb-3">
+      <label for="role-name" class="form-label">Role Name</label>
+      <input type="text" class="form-control" id="role-name">
+    </div>
+
+    <div class="mb-3">
+      <label for="role-description" class="form-label">Role Description</label>
+      <textarea class="form-control" id="role-description"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create Role</button>
+  </form>
+
+  <hr>
+
+  <h3>Existing Roles</h3>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Role Name</th>
+        <th>Role Description</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Admin</td>
+        <td>Has full access to all documents and settings</td>
+        <td>
+          <button type="button" class="btn btn-sm btn-primary">Edit</button>
+          <button type="button" class="btn btn-sm btn-danger">Delete</button>
+        </td>
+      </tr>
+      <tr>
+       
+
             </div>
             <div class="tab-pane fade" id="users_roles">
-                <!-- Users Roles management content goes here -->
-                <!-- Add forms for creating, updating, and deleting user-role associations -->
-                <!-- Add a table to display existing user-role associations -->
+             <div class="tab-pane fade" id="users_roles">
+    <h2>Users Roles</h2>
+    <form>
+        <h3>Create User-Role Association</h3>
+        <div class="mb-3">
+            <label for="user_id" class="form-label">User ID:</label>
+            <input type="text" class="form-control" id="user_id" name="user_id">
+        </div>
+        <div class="mb-3">
+            <label for="role_id" class="form-label">Role ID:</label>
+            <input type="text" class="form-control" id="role_id" name="role_id">
+        </div>
+        <button type="submit" class="btn btn-primary">Create</button>
+    </form>
+    <form>
+        <h3>Update User-Role Association</h3>
+        <div class="mb-3">
+            <label for="user_id_update" class="form-label">User ID:</label>
+            <input type="text" class="form-control" id="user_id_update" name="user_id_update">
+        </div>
+        <div class="mb-3">
+            <label for="role_id_update" class="form-label">Role ID:</label>
+            <input type="text" class="form-control" id="role_id_update" name="role_id_update">
+        </div>
+        <div class="mb-3">
+            <label for="new_role_id_update" class="form-label">New Role ID:</label>
+            <input type="text" class="form-control" id="new_role_id_update" name="new_role_id_update">
+        </div>
+        <button type="submit" class="btn btn-primary">Update</button>
+    </form>
+    <form>
+        <h3>Delete User-Role Association</h3>
+        <div class="mb-3">
+            <label for="user_id_delete" class="form-label">User ID:</label>
+            <input type="text" class="form-control" id="user_id_delete" name="user_id_delete">
+        </div>
+        <div class="mb-3">
+            <label for="role_id_delete" class="form-label">Role ID:</label>
+            <input type="text" class="form-control" id="role_id_delete" name="role_id_delete">
+        </div>
+        <button type="submit" class="btn btn-danger">Delete</button>
+    </form>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>User ID</th>
+                <th>Role ID</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>
+                    <button type="button" class="btn btn-primary">Edit</button>
+                    <button type="button" class="btn btn-danger">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>1</td>
+                <td>
+                    <button type="button" class="btn btn-primary">Edit</button>
+                    <button type="button" class="btn btn-danger">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
             </div>
             <div class="tab-pane fade" id="ai_models">
-                <!-- AI Models management content goes here -->
-                <!-- Add forms for creating, updating, and deleting AI models -->
-                <!-- Add a table to display existing AI models -->
+               <div class="tab-pane fade" id="ai_models">
+    <h2>AI Models</h2>
+
+    <!-- Add a form to create a new AI model -->
+    <form>
+        <h3>Create a new AI model</h3>
+        <div class="mb-3">
+            <label for="model_name" class="form-label">Model name</label>
+            <input type="text" class="form-control" id="model_name" name="model_name" required>
+        </div>
+        <div class="mb-3">
+            <label for="model_description" class="form-label">Model description</label>
+            <textarea class="form-control" id="model_description" name="model_description" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Create model</button>
+    </form>
+
+    <!-- Add a table to display existing AI models -->
+    <h3>Existing AI models</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Model name</th>
+                <th scope="col">Model description</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Model 1</td>
+                <td>Description of Model 1</td>
+                <td>
+                    <button type="button" class="btn btn-secondary">Edit</button>
+                    <button type="button" class="btn btn-danger">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Model 2</td>
+                <td>Description of Model 2</td>
+                <td>
+                    <button type="button" class="btn btn-secondary">Edit</button>
+                    <button type="button" class="btn btn-danger">Delete</button>
+                </td>
+            </tr>
+            <!-- Add more rows to display existing AI models -->
+        </tbody>
+    </table>
+</div>
             </div>
             <div class="tab-pane fade" id="document_approvals">
                 <!-- Document Approvals management content goes here -->
