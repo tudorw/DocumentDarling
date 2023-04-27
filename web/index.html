@@ -7,697 +7,689 @@
     <title>Database Management</title>
 </head>
 <body>
-
-    <div class="container mt-5">
-        <h1 class="text-center mb-4">Database Management</h1>
-        
-        <ul class="nav nav-tabs">
-            <li class="nav-item">
-                <a class="nav-link active" data-bs-toggle="tab" href="#users">Users</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#documents">Documents</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#suggestions">Suggestions</a>
-            </li>
-            <!-- Additional navigation tabs for each table in the schema -->
-            <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#document_versions">Document Versions</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#document_tags">Document Tags</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#document_history">Document History</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#roles">Roles</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#users_roles">Users Roles</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#ai_models">AI Models</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#document_approvals">Document Approvals</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#notifications">Notifications</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#document_reviews">Document Reviews</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#comments">Comments</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#document_templates">Document Templates</a>
-            </li>
-        </ul>
-
-        <div class="tab-content">
-            <div class="tab-pane fade show active" id="users">
-             <h2 class="mt-3">Create User</h2>
-                <form id="create-user-form">
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Database Management</h1>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="tab" href="#users">Users</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#documents">Documents</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#suggestions">Suggestions</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#document_versions">Document Versions</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#document_tags">Document Tags</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#document_history">Document History</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#roles">Roles</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#users_roles">Users Roles</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#ai_models">AI Models</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#document_approvals">Document Approvals</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#notifications">Notifications</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#document_reviews">Document Reviews</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#comments">Comments</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#document_templates">Document Templates</a>
+        </li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane fade show active" id="users">
+            <h2 class="mt-3">Create User</h2>
+            <form id="create-user-form" name="create-user-form">
+                <div class="mb-3">
+                    <label for="create-username" class="form-label">Username</label> <input type="text"
+                                                                                            class="form-control"
+                                                                                            id="create-username"
+                                                                                            required="">
+                </div>
+                <div class="mb-3">
+                    <label for="create-email" class="form-label">Email</label> <input type="email" class="form-control"
+                                                                                      id="create-email" required="">
+                </div>
+                <button type="submit" class="btn btn-primary">Create</button>
+            </form>
+            <h2 class="mt-5">Update User</h2>
+            <form id="update-user-form" name="update-user-form">
+                <div class="mb-3">
+                    <label for="update-username" class="form-label">Username</label> <input type="text"
+                                                                                            class="form-control"
+                                                                                            id="update-username"
+                                                                                            required="">
+                </div>
+                <div class="mb-3">
+                    <label for="update-email" class="form-label">Email</label> <input type="email" class="form-control"
+                                                                                      id="update-email" required="">
+                </div>
+                <button type="submit" class="btn btn-primary">Update</button>
+            </form>
+            <h2 class="mt-5">Existing Users</h2>
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Username</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Actions</th>
+                </tr>
+                </thead>
+                <tbody id="users-table">
+                <!-- The table rows will be dynamically populated -->
+                </tbody>
+            </table>
+        </div>
+        <div class="tab-pane fade" id="documents">
+            <div class="container mt-4">
+                <h2>Create Document</h2>
+                <form id="create-document-form" name="create-document-form">
                     <div class="mb-3">
-                        <label for="create-username" class="form-label">Username</label>
-                        <input type="text" class="form-control" id="create-username" required>
+                        <label for="document-title" class="form-label">Title</label> <input type="text"
+                                                                                            class="form-control"
+                                                                                            id="document-title"
+                                                                                            required="">
                     </div>
                     <div class="mb-3">
-                        <label for="create-email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="create-email" required>
+                        <label for="document-content" class="form-label">Content</label>
+                        <textarea class="form-control" id="document-content" rows="3" required=""></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Create</button>
                 </form>
-                
-                <h2 class="mt-5">Update User</h2>
-                <form id="update-user-form">
-                    <div class="mb-3">
-                        <label for="update-username" class="form-label">Username</label>
-                        <input type="text" class="form-control" id="update-username" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="update-email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="update-email" required>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Update</button>
-                </form>
-
-                <h2 class="mt-5">Existing Users</h2>
-                <table class="table table-striped">
+                <h2 class="mt-5">Existing Documents</h2>
+                <table class="table">
                     <thead>
-                        <tr>
-                            <th scope="col">ID</th>
-                            <th scope="col">Username</th>
-                            <th scope="col">Email</th>
-                            <th scope="col">Actions</th>
-                        </tr>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Content</th>
+                        <th scope="col">Actions</th>
+                    </tr>
                     </thead>
-                    <tbody id="users-table">
-                        <!-- The table rows will be dynamically populated -->
+                    <tbody id="document-table-body">
+                    <!-- Existing documents will be listed here -->
                     </tbody>
                 </table>
             </div>
-            <div class="tab-pane fade" id="documents">
-               
-<div class="container mt-4">
-    <h2>Create Document</h2>
-    <form id="create-document-form">
-        <div class="mb-3">
-            <label for="document-title" class="form-label">Title</label>
-            <input type="text" class="form-control" id="document-title" required>
         </div>
-        <div class="mb-3">
-            <label for="document-content" class="form-label">Content</label>
-            <textarea class="form-control" id="document-content" rows="3" required></textarea>
+        <div class="tab-pane fade show active" id="suggestions">
+            <!-- Suggestion management content goes here -->
+            <h2 class="mt-3">Add Suggestion</h2>
+            <form action="/suggestions" method="post">
+                <div class="mb-3">
+                    <label for="suggestion_text" class="form-label">Suggestion Text</label> <input type="text"
+                                                                                                   class="form-control"
+                                                                                                   id="suggestion_text"
+                                                                                                   name="suggestion_text">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <h2 class="mt-5">View Existing Suggestions</h2>
+            <table class="table mt-3">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Suggestion Text</th>
+                    <th scope="col">Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Improve document search functionality</td>
+                    <td>
+                        <a href="#" class="btn btn-sm btn-primary">Edit</a> <a href="#" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Add option to export documents as PDF</td>
+                    <td>
+                        <a href="#" class="btn btn-sm btn-primary">Edit</a> <a href="#" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr><!-- Add dynamic rendering of existing suggestions here -->
+                </tbody>
+            </table>
         </div>
-        <button type="submit" class="btn btn-primary">Create</button>
-    </form>
-    
-    <h2 class="mt-5">Existing Documents</h2>
-    <table class="table">
-        <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Title</th>
-                <th scope="col">Content</th>
-                <th scope="col">Actions</th>
-            </tr>
-        </thead>
-        <tbody id="document-table-body">
-            <!-- Existing documents will be listed here -->
-        </tbody>
-    </table>
-</div>
-         
-             <div class="tab-pane fade show active" id="suggestions">
-                <!-- Suggestion management content goes here -->
-                <h2 class="mt-3">Add Suggestion</h2>
-                <form action="/suggestions" method="post">
+        <div class="tab-pane fade show active" id="document_versions">
+            <h2>Document Versions</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="document_version_number" class="form-label">Version Number</label> <input type="number"
+                                                                                                          class="form-control"
+                                                                                                          id="document_version_number"
+                                                                                                          name="document_version_number"
+                                                                                                          required="">
+                </div>
+                <div class="mb-3">
+                    <label for="document_version_file" class="form-label">File</label> <input type="file"
+                                                                                              class="form-control"
+                                                                                              id="document_version_file"
+                                                                                              name="document_version_file"
+                                                                                              required="">
+                </div>
+                <button type="submit" class="btn btn-primary">Create</button>
+            </form>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Version Number</th>
+                    <th>File</th>
+                    <th>Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>document_v1.pdf</td>
+                    <td>
+                        <a href="#" class="btn btn-sm btn-primary">View</a> <a href="#" class="btn btn-sm btn-warning">Edit</a>
+                        <form style="display: inline;" method="post" action="/document_versions/delete/1">
+                            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>document_v2.pdf</td>
+                    <td>
+                        <a href="#" class="btn btn-sm btn-primary">View</a> <a href="#" class="btn btn-sm btn-warning">Edit</a>
+                        <form style="display: inline;" method="post" action="/document_versions/delete/2">
+                            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                        </form>
+                    </td>
+                </tr><!-- Add more rows to display additional document versions -->
+                </tbody>
+            </table>
+        </div>
+        <div class="tab-pane fade show active" id="document_tags">
+            <h2>Document Tags</h2>
+            <div class="mb-3">
+                <a href="#new-tag-form" data-bs-toggle="collapse" role="button" aria-expanded="false"
+                   aria-controls="new-tag-form">New Tag</a> <a href="#tag-list" data-bs-toggle="collapse" role="button"
+                                                               aria-expanded="false" aria-controls="tag-list">Tag
+                List</a>
+            </div>
+            <div class="collapse" id="new-tag-form">
+                <form id="new-tag-form-form" name="new-tag-form">
                     <div class="mb-3">
-                        <label for="suggestion_text" class="form-label">Suggestion Text</label>
-                        <input type="text" class="form-control" id="suggestion_text" name="suggestion_text">
+                        <label for="tag-name" class="form-label">Tag Name</label> <input type="text"
+                                                                                         class="form-control"
+                                                                                         id="tag-name" name="tag-name"
+                                                                                         required="">
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary">Create Tag</button>
                 </form>
-
-                <h2 class="mt-5">View Existing Suggestions</h2>
-                <table class="table mt-3">
+            </div>
+            <div class="collapse" id="tag-list">
+                <table class="table">
                     <thead>
+                    <tr>
+                        <th>Tag Name</th>
+                        <th>Actions</th>
+                    </tr>
+                    </thead>
+                    <tbody id="tag-table-body">
+                    <!-- table rows for displaying existing tags will be added dynamically -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="tab-pane fade show active" id="document_history">
+            <h2>Document History</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="document_id" class="form-label">Document ID</label> <input type="text"
+                                                                                           class="form-control"
+                                                                                           id="document_id_id"
+                                                                                           name="document_id"
+                                                                                           required="">
+                </div>
+                <div class="mb-3">
+                    <label for="user_id" class="form-label">User ID</label> <input type="text" class="form-control"
+                                                                                   id="user_id_id" name="user_id"
+                                                                                   required="">
+                </div>
+                <div class="mb-3">
+                    <label for="change_description" class="form-label">Change Description</label> <input type="text"
+                                                                                                         class="form-control"
+                                                                                                         id="change_description"
+                                                                                                         name="change_description"
+                                                                                                         required="">
+                </div>
+                <button type="submit" class="btn btn-primary">Add Change</button>
+            </form>
+            <hr>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Change ID</th>
+                    <th>Document ID</th>
+                    <th>User ID</th>
+                    <th>Change Description</th>
+                    <th>Timestamp</th>
+                </tr>
+                </thead>
+                <tbody>
+                <!-- Use server-side scripting to fetch and display existing document history records -->
+                </tbody>
+            </table>
+        </div>
+        <div class="tab-pane fade show active" id="roles">
+            <h2>Roles</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="role-name" class="form-label">Role Name</label> <input type="text" class="form-control"
+                                                                                       id="role-name">
+                </div>
+                <div class="mb-3">
+                    <label for="role-description" class="form-label">Role Description</label>
+                    <textarea class="form-control" id="role-description"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Create Role</button>
+            </form>
+            <hr>
+        </div>
+        <div class="tab-pane fade show active" id="users_roles">
+            <h3>Create User-Role Association</h3>
+            <div class="mb-3">
+                <label for="user_id" class="form-label">User ID:</label> <input type="text" class="form-control"
+                                                                                id="user_id" name="user_id">
+            </div>
+            <div class="mb-3">
+                <label for="role_id" class="form-label">Role ID:</label> <input type="text" class="form-control"
+                                                                                id="role_id" name="role_id">
+            </div>
+            <button type="submit" class="btn btn-primary">Create</button>
+            <form>
+                <h3>Update User-Role Association</h3>
+                <div class="mb-3">
+                    <label for="user_id_update" class="form-label">User ID:</label> <input type="text"
+                                                                                           class="form-control"
+                                                                                           id="user_id_update"
+                                                                                           name="user_id_update">
+                </div>
+                <div class="mb-3">
+                    <label for="role_id_update" class="form-label">Role ID:</label> <input type="text"
+                                                                                           class="form-control"
+                                                                                           id="role_id_update"
+                                                                                           name="role_id_update">
+                </div>
+                <div class="mb-3">
+                    <label for="new_role_id_update" class="form-label">New Role ID:</label> <input type="text"
+                                                                                                   class="form-control"
+                                                                                                   id="new_role_id_update"
+                                                                                                   name="new_role_id_update">
+                </div>
+                <button type="submit" class="btn btn-primary">Update</button>
+            </form>
+            <form>
+                <h3>Delete User-Role Association</h3>
+                <div class="mb-3">
+                    <label for="user_id_delete" class="form-label">User ID:</label> <input type="text"
+                                                                                           class="form-control"
+                                                                                           id="user_id_delete"
+                                                                                           name="user_id_delete">
+                </div>
+                <div class="mb-3">
+                    <label for="role_id_delete" class="form-label">Role ID:</label> <input type="text"
+                                                                                           class="form-control"
+                                                                                           id="role_id_delete"
+                                                                                           name="role_id_delete">
+                </div>
+                <button type="submit" class="btn btn-danger">Delete</button>
+            </form>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>User ID</th>
+                    <th>Role ID</th>
+                    <th>Action</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>
+                        <button type="button" class="btn btn-primary">Edit</button>
+                        <button type="button" class="btn btn-danger">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>
+                        <button type="button" class="btn btn-primary">Edit</button>
+                        <button type="button" class="btn btn-danger">Delete</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="tab-pane fade show active" id="ai_models">
+            <h2>AI Models</h2><!-- Add a form to create a new AI model -->
+            <form>
+                <h3>Create a new AI model</h3>
+                <div class="mb-3">
+                    <label for="model_name" class="form-label">Model name</label> <input type="text"
+                                                                                         class="form-control"
+                                                                                         id="model_name"
+                                                                                         name="model_name"
+                                                                                         required="">
+                </div>
+                <div class="mb-3">
+                    <label for="model_description" class="form-label">Model description</label>
+                    <textarea class="form-control" id="model_description" name="model_description" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Create model</button>
+            </form><!-- Add a table to display existing AI models -->
+            <h3>Existing AI models</h3>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Model name</th>
+                    <th scope="col">Model description</th>
+                    <th scope="col">Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Model 1</td>
+                    <td>Description of Model 1</td>
+                    <td>
+                        <button type="button" class="btn btn-secondary">Edit</button>
+                        <button type="button" class="btn btn-danger">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Model 2</td>
+                    <td>Description of Model 2</td>
+                    <td>
+                        <button type="button" class="btn btn-secondary">Edit</button>
+                        <button type="button" class="btn btn-danger">Delete</button>
+                    </td>
+                </tr><!-- Add more rows to display existing AI models -->
+                </tbody>
+            </table>
+        </div>
+        <div class="tab-pane fade show active" id="document_approvals">
+            <h2>Document Approvals</h2><!-- Add form for creating new document approvals -->
+            <form>
+                <div class="mb-3">
+                    <label for="document_name" class="form-label">Document Name</label> <input type="text"
+                                                                                               class="form-control"
+                                                                                               id="document_name"
+                                                                                               name="document_name">
+                </div>
+                <div class="mb-3">
+                    <label for="approver" class="form-label">Approver</label> <input type="text" class="form-control"
+                                                                                     id="approver" name="approver">
+                </div>
+                <div class="mb-3">
+                    <label for="status" class="form-label">Status</label> <select class="form-control" id="status"
+                                                                                  name="status">
+                    <option value="pending">
+                        Pending
+                    </option>
+                    <option value="approved">
+                        Approved
+                    </option>
+                    <option value="rejected">
+                        Rejected
+                    </option>
+                </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form><!-- Add table to display existing document approvals -->
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Document Name</th>
+                    <th scope="col">Approver</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Document 1</td>
+                    <td>John Smith</td>
+                    <td>Pending</td>
+                    <td>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Approve</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Reject</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Document 2</td>
+                    <td>Jane Doe</td>
+                    <td>Approved</td>
+                    <td>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Reject</button>
+                    </td>
+                </tr><!-- Add more rows to display additional document approvals -->
+                </tbody>
+            </table>
+        </div>
+        <div class="tab-pane fade show active" id="notifications">
+            <h2>Notifications</h2>
+            <form>
+                <!-- Add form fields for creating new notifications -->
+                <div class="mb-3">
+                    <label for="notification-title" class="form-label">Title</label> <input type="text"
+                                                                                            class="form-control"
+                                                                                            id="notification-title"
+                                                                                            name="notification-title">
+                </div>
+                <div class="mb-3">
+                    <label for="notification-message" class="form-label">Message</label>
+                    <textarea class="form-control" id="notification-message" name="notification-message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Create Notification</button>
+            </form><!-- Add a table to display existing notifications -->
+            <table class="table table-striped mt-4">
+                <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Message</th>
+                    <th>Date</th>
+                    <th>Action</th>
+                </tr>
+                </thead>
+                <tbody>
+                <!-- Add a row for each notification in the database -->
+                <tr>
+                    <td>Notification Title</td>
+                    <td>Notification Message</td>
+                    <td>2023-04-27</td>
+                    <td>
+                        <button type="button" class="btn btn-sm btn-danger">Delete</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="tab-pane fade show active" id="document_reviews">
+            <h2>Document Reviews</h2><!-- Add form for creating a new review -->
+            <form>
+                <div class="form-group">
+                    <label for="document_id">Document ID:</label> <input type="text" class="form-control"
+                                                                         id="document_id"
+                                                                         name="document_id" required="">
+                </div>
+                <div class="form-group">
+                    <label for="reviewer_id">Reviewer ID:</label> <input type="text" class="form-control"
+                                                                         id="reviewer_id"
+                                                                         name="reviewer_id" required="">
+                </div>
+                <div class="form-group">
+                    <label for="review_text">Review Text:</label>
+                    <textarea class="form-control" id="review_text" name="review_text" required=""></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form><!-- Add a table to display existing reviews -->
+            <table class="table table-striped mt-4">
+                <thead>
+                <tr>
+                    <th>Review ID</th>
+                    <th>Document ID</th>
+                    <th>Reviewer ID</th>
+                    <th>Review Text</th>
+                    <th>Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>101</td>
+                    <td>201</td>
+                    <td>This is a great document!</td>
+                    <td><!-- Add buttons to edit and delete reviews -->
+                        <button type="button" class="btn btn-sm btn-primary">Edit</button>
+                        <button type="button" class="btn btn-sm btn-danger">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>102</td>
+                    <td>202</td>
+                    <td>This document needs more work.</td>
+                    <td><!-- Add buttons to edit and delete reviews -->
+                        <button type="button" class="btn btn-sm btn-primary">Edit</button>
+                        <button type="button" class="btn btn-sm btn-danger">Delete</button>
+                    </td>
+                </tr><!-- Add more rows for each review -->
+                </tbody>
+            </table>
+        </div>
+        <div class="tab-pane fade" id="comments">
+            <h2>Comments</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Create Comment</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label for="document-select" class="form-label">Select Document</label> <select
+                                class="form-select" id="document-select">
+                            <option selected disabled>
+                                Select a document
+                            </option>
+                            <option value="doc1">
+                                Document 1
+                            </option>
+                            <option value="doc2">
+                                Document 2
+                            </option>
+                            <option value="doc3">
+                                Document 3
+                            </option>
+                        </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="comment-text" class="form-label">Comment</label>
+                            <textarea class="form-control" id="comment-text" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h3>Existing Comments</h3>
+                    <table class="table">
+                        <thead>
                         <tr>
                             <th scope="col">#</th>
-                            <th scope="col">Suggestion Text</th>
+                            <th scope="col">Document</th>
+                            <th scope="col">Comment</th>
                             <th scope="col">Actions</th>
                         </tr>
-                    </thead>
-                    <tbody>
+                        </thead>
+                        <tbody>
                         <tr>
                             <th scope="row">1</th>
-                            <td>Improve document search functionality</td>
+                            <td>Document 1</td>
+                            <td>This is a comment.</td>
                             <td>
-                                <a href="#" class="btn btn-sm btn-primary">Edit</a>
-                                <a href="#" class="btn btn-sm btn-danger">Delete</a>
+                                <button type="button" class="btn btn-primary btn-sm">Edit</button>
+                                <button type="button" class="btn btn-danger btn-sm">Delete</button>
                             </td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
-                            <td>Add option to export documents as PDF</td>
+                            <td>Document 2</td>
+                            <td>Another comment.</td>
                             <td>
-                                <a href="#" class="btn btn-sm btn-primary">Edit</a>
-                                <a href="#" class="btn btn-sm btn-danger">Delete</a>
+                                <button type="button" class="btn btn-primary btn-sm">Edit</button>
+                                <button type="button" class="btn btn-danger btn-sm">Delete</button>
                             </td>
                         </tr>
-                        <!-- Add dynamic rendering of existing suggestions here -->
-                    </tbody>
-                </table>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-            <div class="tab-pane fade show active" id="document_versions">
-  <form>
-    <div class="mb-3">
-      <label for="document_version_number" class="form-label">Version Number</label>
-      <input type="number" class="form-control" id="document_version_number" name="document_version_number" required>
-    </div>
-    <div class="mb-3">
-      <label for="document_version_file" class="form-label">File</label>
-      <input type="file" class="form-control" id="document_version_file" name="document_version_file" required>
-    </div>
-    <button type="submit" class="btn btn-primary">Create</button>
-  </form>
-
-  <table class="table">
-    <thead>
-      <tr>
-        <th>Version Number</th>
-        <th>File</th>
-        <th>Actions</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>document_v1.pdf</td>
-        <td>
-          <a href="#" class="btn btn-sm btn-primary">View</a>
-          <a href="#" class="btn btn-sm btn-warning">Edit</a>
-          <form style="display: inline;" method="POST" action="/document_versions/delete/1">
-            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
-          </form>
-        </td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>document_v2.pdf</td>
-        <td>
-          <a href="#" class="btn btn-sm btn-primary">View</a>
-          <a href="#" class="btn btn-sm btn-warning">Edit</a>
-          <form style="display: inline;" method="POST" action="/document_versions/delete/2">
-            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
-          </form>
-        </td>
-      </tr>
-      <!-- Add more rows to display additional document versions -->
-    </tbody>
-  </table>
-</div>
-
-             <div class="tab-pane fade show active" id="document_tags">
-  <h2>Document Tags</h2>
-  <div class="mb-3">
-    <a href="#new-tag-form" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="new-tag-form">New Tag</a>
-    <a href="#tag-list" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="tag-list">Tag List</a>
-  </div>
-  <div class="collapse" id="new-tag-form">
-    <form id="new-tag-form">
-      <div class="mb-3">
-        <label for="tag-name" class="form-label">Tag Name</label>
-        <input type="text" class="form-control" id="tag-name" name="tag-name" required>
-      </div>
-      <button type="submit" class="btn btn-primary">Create Tag</button>
-    </form>
-  </div>
-  <div class="collapse" id="tag-list">
-    <table class="table">
-      <thead>
-        <tr>
-          <th>Tag Name</th>
-          <th>Actions</th>
-        </tr>
-      </thead>
-      <tbody id="tag-table-body">
-        <!-- table rows for displaying existing tags will be added dynamically -->
-      </tbody>
-    </table>
-  </div>
-</div>
-
-  <div class="tab-pane fade show active" id="document_history">
-    <h2>Document History</h2>
-    <form>
-        <div class="mb-3">
-            <label for="document_id" class="form-label">Document ID</label>
-            <input type="text" class="form-control" id="document_id" name="document_id" required>
         </div>
-        <div class="mb-3">
-            <label for="user_id" class="form-label">User ID</label>
-            <input type="text" class="form-control" id="user_id" name="user_id" required>
-        </div>
-        <div class="mb-3">
-            <label for="change_description" class="form-label">Change Description</label>
-            <input type="text" class="form-control" id="change_description" name="change_description" required>
-        </div>
-        <button type="submit" class="btn btn-primary">Add Change</button>
-    </form>
-
-    <hr>
-
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Change ID</th>
-                <th>Document ID</th>
-                <th>User ID</th>
-                <th>Change Description</th>
-                <th>Timestamp</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Use server-side scripting to fetch and display existing document history records -->
-        </tbody>
-    </table>
-</div>
-
-           <div class="tab-pane fade show active" id="roles">
-  <h2>Roles</h2>
-
-  <form>
-    <div class="mb-3">
-      <label for="role-name" class="form-label">Role Name</label>
-      <input type="text" class="form-control" id="role-name">
-    </div>
-
-    <div class="mb-3">
-      <label for="role-description" class="form-label">Role Description</label>
-      <textarea class="form-control" id="role-description"></textarea>
-    </div>
-
-    <button type="submit" class="btn btn-primary">Create Role</button>
-  </form>
-
-  <hr>
-
-  <h3>Existing Roles</h3>
-
-  <table class="table">
-    <thead>
-      <tr>
-        <th>Role Name</th>
-        <th>Role Description</th>
-        <th>Action</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Admin</td>
-        <td>Has full access to all documents and settings</td>
-        <td>
-          <button type="button" class="btn btn-sm btn-primary">Edit</button>
-          <button type="button" class="btn btn-sm btn-danger">Delete</button>
-        </td>
-      </tr>
-      <tr>
-       
-  <div class="tab-pane fade show active" id="users_roles">
-
-        <h3>Create User-Role Association</h3>
-        <div class="mb-3">
-            <label for="user_id" class="form-label">User ID:</label>
-            <input type="text" class="form-control" id="user_id" name="user_id">
-        </div>
-        <div class="mb-3">
-            <label for="role_id" class="form-label">Role ID:</label>
-            <input type="text" class="form-control" id="role_id" name="role_id">
-        </div>
-        <button type="submit" class="btn btn-primary">Create</button>
-    </form>
-    <form>
-        <h3>Update User-Role Association</h3>
-        <div class="mb-3">
-            <label for="user_id_update" class="form-label">User ID:</label>
-            <input type="text" class="form-control" id="user_id_update" name="user_id_update">
-        </div>
-        <div class="mb-3">
-            <label for="role_id_update" class="form-label">Role ID:</label>
-            <input type="text" class="form-control" id="role_id_update" name="role_id_update">
-        </div>
-        <div class="mb-3">
-            <label for="new_role_id_update" class="form-label">New Role ID:</label>
-            <input type="text" class="form-control" id="new_role_id_update" name="new_role_id_update">
-        </div>
-        <button type="submit" class="btn btn-primary">Update</button>
-    </form>
-    <form>
-        <h3>Delete User-Role Association</h3>
-        <div class="mb-3">
-            <label for="user_id_delete" class="form-label">User ID:</label>
-            <input type="text" class="form-control" id="user_id_delete" name="user_id_delete">
-        </div>
-        <div class="mb-3">
-            <label for="role_id_delete" class="form-label">Role ID:</label>
-            <input type="text" class="form-control" id="role_id_delete" name="role_id_delete">
-        </div>
-        <button type="submit" class="btn btn-danger">Delete</button>
-    </form>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>User ID</th>
-                <th>Role ID</th>
-                <th>Action</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>
-                    <button type="button" class="btn btn-primary">Edit</button>
-                    <button type="button" class="btn btn-danger">Delete</button>
-                </td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>1</td>
-                <td>
-                    <button type="button" class="btn btn-primary">Edit</button>
-                    <button type="button" class="btn btn-danger">Delete</button>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-<div class="tab-pane fade show active" id="ai_models">
-    <h2>AI Models</h2>
-
-    <!-- Add a form to create a new AI model -->
-    <form>
-        <h3>Create a new AI model</h3>
-        <div class="mb-3">
-            <label for="model_name" class="form-label">Model name</label>
-            <input type="text" class="form-control" id="model_name" name="model_name" required>
-        </div>
-        <div class="mb-3">
-            <label for="model_description" class="form-label">Model description</label>
-            <textarea class="form-control" id="model_description" name="model_description" rows="3"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Create model</button>
-    </form>
-
-    <!-- Add a table to display existing AI models -->
-    <h3>Existing AI models</h3>
-    <table class="table">
-        <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Model name</th>
-                <th scope="col">Model description</th>
-                <th scope="col">Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>Model 1</td>
-                <td>Description of Model 1</td>
-                <td>
-                    <button type="button" class="btn btn-secondary">Edit</button>
-                    <button type="button" class="btn btn-danger">Delete</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Model 2</td>
-                <td>Description of Model 2</td>
-                <td>
-                    <button type="button" class="btn btn-secondary">Edit</button>
-                    <button type="button" class="btn btn-danger">Delete</button>
-                </td>
-            </tr>
-            <!-- Add more rows to display existing AI models -->
-        </tbody>
-    </table>
-</div>
-         <div class="tab-pane fade show active" id="document_approvals">
-  <h2>Document Approvals</h2>
-  
-  <!-- Add form for creating new document approvals -->
-  <form>
-    <div class="mb-3">
-      <label for="document_name" class="form-label">Document Name</label>
-      <input type="text" class="form-control" id="document_name" name="document_name">
-    </div>
-    <div class="mb-3">
-      <label for="approver" class="form-label">Approver</label>
-      <input type="text" class="form-control" id="approver" name="approver">
-    </div>
-    <div class="mb-3">
-      <label for="status" class="form-label">Status</label>
-      <select class="form-control" id="status" name="status">
-        <option value="pending">Pending</option>
-        <option value="approved">Approved</option>
-        <option value="rejected">Rejected</option>
-      </select>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
-  
-  <!-- Add table to display existing document approvals -->
-  <table class="table">
-    <thead>
-      <tr>
-        <th scope="col">Document Name</th>
-        <th scope="col">Approver</th>
-        <th scope="col">Status</th>
-        <th scope="col">Actions</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Document 1</td>
-        <td>John Smith</td>
-        <td>Pending</td>
-        <td>
-          <button type="button" class="btn btn-sm btn-outline-secondary">Approve</button>
-          <button type="button" class="btn btn-sm btn-outline-secondary">Reject</button>
-        </td>
-      </tr>
-      <tr>
-        <td>Document 2</td>
-        <td>Jane Doe</td>
-        <td>Approved</td>
-        <td>
-          <button type="button" class="btn btn-sm btn-outline-secondary">Reject</button>
-        </td>
-      </tr>
-      <!-- Add more rows to display additional document approvals -->
-    </tbody>
-  </table>
-</div>
-           <div class="tab-pane fade show active" id="notifications">
-    <h2>Notifications</h2>
-    <form>
-        <!-- Add form fields for creating new notifications -->
-        <div class="mb-3">
-            <label for="notification-title" class="form-label">Title</label>
-            <input type="text" class="form-control" id="notification-title" name="notification-title">
-        </div>
-        <div class="mb-3">
-            <label for="notification-message" class="form-label">Message</label>
-            <textarea class="form-control" id="notification-message" name="notification-message"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Create Notification</button>
-    </form>
-
-    <!-- Add a table to display existing notifications -->
-    <table class="table table-striped mt-4">
-        <thead>
-            <tr>
-                <th>Title</th>
-                <th>Message</th>
-                <th>Date</th>
-                <th>Action</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Add a row for each notification in the database -->
-            <tr>
-                <td>Notification Title</td>
-                <td>Notification Message</td>
-                <td>2023-04-27</td>
-                <td>
-                    <button type="button" class="btn btn-sm btn-danger">Delete</button>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-           
-
-     <div class="tab-pane fade show active" id="document_reviews">
-  <h2>Document Reviews</h2>
-  
-  <!-- Add form for creating a new review -->
-  <form>
-    <div class="form-group">
-      <label for="document_id">Document ID:</label>
-      <input type="text" class="form-control" id="document_id" name="document_id" required>
-    </div>
-    <div class="form-group">
-      <label for="reviewer_id">Reviewer ID:</label>
-      <input type="text" class="form-control" id="reviewer_id" name="reviewer_id" required>
-    </div>
-    <div class="form-group">
-      <label for="review_text">Review Text:</label>
-      <textarea class="form-control" id="review_text" name="review_text" required></textarea>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
-  
-  <!-- Add a table to display existing reviews -->
-  <table class="table table-striped mt-4">
-    <thead>
-      <tr>
-        <th>Review ID</th>
-        <th>Document ID</th>
-        <th>Reviewer ID</th>
-        <th>Review Text</th>
-        <th>Actions</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>101</td>
-        <td>201</td>
-        <td>This is a great document!</td>
-        <td>
-          <!-- Add buttons to edit and delete reviews -->
-          <button type="button" class="btn btn-sm btn-primary">Edit</button>
-          <button type="button" class="btn btn-sm btn-danger">Delete</button>
-        </td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>102</td>
-        <td>202</td>
-        <td>This document needs more work.</td>
-        <td>
-          <!-- Add buttons to edit and delete reviews -->
-          <button type="button" class="btn btn-sm btn-primary">Edit</button>
-          <button type="button" class="btn btn-sm btn-danger">Delete</button>
-        </td>
-      </tr>
-      <!-- Add more rows for each review -->
-    </tbody>
-  </table>
-</div>
-
-            
-            <div class="tab-pane fade" id="comments">
-          <li class="nav-item">
-    <a class="nav-link" data-bs-toggle="tab" href="#comments">Comments</a>
-</li>
-
-<div class="tab-pane fade" id="comments">
-    <h2>Comments</h2>
-    <div class="row">
-        <div class="col-md-6">
-            <h3>Create Comment</h3>
+        <div class="tab-pane fade" id="document_templates">
+            <h2>Document Templates</h2>
             <form>
-                <div class="mb-3">
-                    <label for="document-select" class="form-label">Select Document</label>
-                    <select class="form-select" id="document-select">
-                        <option selected disabled>Select a document</option>
-                        <option value="doc1">Document 1</option>
-                        <option value="doc2">Document 2</option>
-                        <option value="doc3">Document 3</option>
-                    </select>
-                </div>
-                <div class="mb-3">
-                    <label for="comment-text" class="form-label">Comment</label>
-                    <textarea class="form-control" id="comment-text" rows="3"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <!-- Add form fields for creating new document templates -->
             </form>
-        </div>
-        <div class="col-md-6">
-            <h3>Existing Comments</h3>
-            <table class="table">
+            <table class="table table-striped">
                 <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Document</th>
-                        <th scope="col">Comment</th>
-                        <th scope="col">Actions</th>
-                    </tr>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Actions</th>
+                </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Document 1</td>
-                        <td>This is a comment.</td>
-                        <td>
-                            <button type="button" class="btn btn-primary btn-sm">Edit</button>
-                            <button type="button" class="btn btn-danger btn-sm">Delete</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Document 2</td>
-                        <td>Another comment.</td>
-                        <td>
-                            <button type="button" class="btn btn-primary btn-sm">Edit</button>
-                            <button type="button" class="btn btn-danger btn-sm">Delete</button>
-                        </td>
-                    </tr>
+                <!-- Add table rows for displaying existing document templates -->
                 </tbody>
             </table>
         </div>
     </div>
 </div>
-
-           
-            <div class="tab-pane fade" id="document_templates">
-              <div class="tab-pane fade" id="document_templates">
-    <h2>Document Templates</h2>
-
-    <form>
-        <!-- Add form fields for creating new document templates -->
-    </form>
-
-    <table class="table table-striped">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Add table rows for displaying existing document templates -->
-        </tbody>
-    </table>
-</div>
-
-            </div>
-        </div>
-
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+<table class="table">
+    <thead>
+    <tr>
+        <th>Role Name</th>
+        <th>Role Description</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Admin</td>
+        <td>Has full access to all documents and settings</td>
+        <td>
+            <button type="button" class="btn btn-sm btn-primary">Edit</button>
+            <button type="button" class="btn btn-sm btn-danger">Delete</button>
+        </td>
+    </tr>
+    </tbody>
+</table>
 </body>
 </html>
