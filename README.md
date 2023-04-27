@@ -1,6 +1,8 @@
 # DocumentDarling
 **An idea born of neccesity for the EXAR-Wellbeing journey! https://exar-wellbeing.org.uk/**
 
+First demonstration of basic UI that shows the intended funtionality in it's most basic form.
+http://htmlpreview.github.io/?https://github.com/tudorw/DocumentDarling/blob/main/web/index.html
 
 
 DocumentDarling, aims to revolutionize document creation and maintenance for organizations by leveraging AI technology to streamline the process of drafting and updating legal, regulatory, safeguarding, and other crucial forms and documents. By incorporating a human-in-the-loop approach, DocumentDarling, ensures the quality and compliance of the final documents while minimizing the time and effort required by human experts.
