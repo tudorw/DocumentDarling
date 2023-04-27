@@ -1,0 +1,33 @@
+You've successfully created the schema for a document management system. Here's a summary of the tables created:
+
+users: Stores user information such as username, email, hashed password, first and last name.
+
+documents: Stores document information such as title, content, document type, creation date, author ID, and related template ID.
+
+templates: Stores document templates with their names, content, and guidelines.
+
+suggestions: Stores document suggestions along with their author, status, and feedback.
+
+document_versions: Stores different versions of a document with their title, content, creation date, version number, and author ID.
+
+document_tags: Stores tags for documents with their name and description.
+
+document_tags_association: Association table linking documents to their corresponding tags.
+
+document_history: Stores the history of document actions, including the timestamp and user who performed the action.
+
+roles: Stores user roles with their names and permissions.
+
+users_roles: Association table linking users to their corresponding roles.
+
+ai_models: Stores information about AI models used in the system.
+
+document_approvals: Stores document approval information, including the approver, approval status, comments, and AI assistance details.
+
+notifications: Stores user notifications, including the recipient, content, timestamp, and read status.
+
+document_reviews: Stores document review information, including the reviewer, review status, and comments.
+
+ai_analysis_requests: Stores requests for AI analysis on documents, including status and analysis results.
+
+Various indexes have been created for optimizing queries on specific columns.
