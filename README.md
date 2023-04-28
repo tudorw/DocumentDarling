@@ -11,7 +11,8 @@ Demonstration of basic UI:
 
 Proposed Database Schema Mind Map
 
-![MindMap](https://user-images.githubusercontent.com/1279930/235038288-ef95aaa3-e3eb-40fc-92c5-bfd81e9d7a04.png)
+![schema](https://user-images.githubusercontent.com/1279930/235038589-b03ee9f0-0868-4752-b8b2-04dfe5cbf2ec.png)
+
 
 
 
