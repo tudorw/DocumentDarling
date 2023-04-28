@@ -80,6 +80,21 @@ The key roles I would like to talk with are:
 
 #Data Protection Officer
 
+Proposed Fully Open Source Software Stack;
+- PostgreSQL
+- MongoDB
+- Django
+- Flask
+- Pydantic
+- FastAPI
+- Pandas
+- Matplotlib
+- Plotly
+- NumPy
+- Scikit-learn
+- Celery
+- Sentry
+- Docker
 
 ##* Features: My project has the following features:
     #* A Generic Folder Structure To Store Documents Logically.
