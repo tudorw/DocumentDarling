@@ -1,0 +1,30 @@
+User input:
+
+Folder name: The user can provide a folder name to indicate the document's category and store it accordingly for easier access and management.
+Document name: The user can enter the document's name, which can be used as a basis for analyzing the document and suggesting updates, as well as categorizing and storing it.
+Document description: The user can provide a brief description of the document's purpose and contents, which can be used to organize and retrieve it efficiently.
+Document tags: The user can assign tags to the document, which can be used for categorization and retrieval, and for suggesting related documents to the user.
+User access control details (read/write permissions): The system can ensure that only authorized users have access to specific documents, in line with the organization's access control policy.
+User roles associated with document approval: The system can assign approval roles to designated users to ensure that all documents adhere to the organization's communications policy.
+User roles associated with document rejection: The system can assign rejection roles to designated users to ensure that rejected documents are reviewed and revised as necessary.
+User roles associated with document filing: The system can assign filing roles to designated users to ensure that all documents are stored and managed appropriately.
+Date created: The system can use the date created to track and analyze the document's history and suggest updates as necessary.
+Document upload:
+
+Document file: The system can analyze the document's contents, suggest updates, and categorize it based on the document's type and contents.
+Document type: The system can use the document type to determine its format and suggest updates accordingly.
+Document size: The system can use the document size to ensure that it is within acceptable limits and suggest resizing if necessary.
+Document source: The system can track the document's source and use it to analyze and suggest updates in line with the organization's communications policy.
+Date uploaded: The system can use the date uploaded to track the document's history and suggest updates as necessary.
+AI monitor:
+
+Document file: The AI monitor can track changes to the document and suggest updates based on the organization's communications policy.
+Sources for changes: The AI monitor can identify the sources of changes to the document and suggest revisions based on the organization's communications policy.
+Date monitored: The system can use the date monitored to track the document's history and suggest updates as necessary.
+Notification preferences:
+
+Email address: The system can use the user's email address to send notifications about document status changes and other relevant information.
+Mobile number: The system can use the user's mobile number to send notifications about document status changes and other relevant information.
+Notification type (approval, rejection, filing, accuracy, access control violation): The system can send notifications to the user based on their notification preferences and the status of the document.
+Notification frequency (immediate, daily, weekly): The system can send notifications to the user based on their notification preferences and the frequency they choose.
+Overall, the inputs can be linked to the system's objectives and features to ensure that document creation and maintenance are automated, efficient, and accurate, with the assistance of AI and human oversight.

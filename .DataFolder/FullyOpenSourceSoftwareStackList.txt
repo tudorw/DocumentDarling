@@ -1,0 +1,18 @@
+- PostgreSQL
+- MongoDB
+- Django
+- Flask
+- Pydantic
+- FastAPI
+- Pandas
+- Matplotlib
+- Plotly
+- NumPy
+- Scikit-learn
+- Celery
+- Sentry
+- Docker
+
+
+
+

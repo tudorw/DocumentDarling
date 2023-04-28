@@ -1,0 +1,9 @@
+Operations: This category would include roles related to managing the day-to-day operations of the organization, such as Department Managers, Compliance Manager, Facilities Manager, and Equipment Manager.
+
+Finance: This category would include roles related to managing the company's finances, such as CFO, Accountant, Financial Analyst, and Controller.
+
+Legal and Compliance: This category would include roles related to legal and compliance functions, such as Intellectual Property (IP) Attorney, In-house Counsel, Compliance Officer, and Data Protection Officer (DPO).
+
+Marketing and Communications: This category would include roles related to marketing and communications functions, such as Marketing Manager, Marketing Communications Manager, Graphic Designer, and Public Relations Manager.
+
+People and Culture: This category would include roles related to human resources and culture functions, such as Human Resources (HR) Manager, Health and Safety Manager, Employment Lawyer, and Community Organizers.

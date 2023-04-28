@@ -1,0 +1,89 @@
+Senior Management
+,Directors
+,Executive Directors
+,Non-executive Directors
+,Independent Directors
+,Department Managers (e.g., HR, Legal, Marketing, Compliance)
+,Accountant
+,Asset Manager
+,Business Development Manager
+,CFO
+,Child Protection Advisor
+,Collaboration Manager
+,Communication Manager
+,Community Engagement Manager
+,Community Organizers
+,Compliance Manager
+,Compliance Officer
+,Contingency Planners
+,Controller
+,Copyright Agent
+,CSR Manager
+,Cybersecurity Analyst
+,Data Protection Officer (DPO)
+,Development Officer
+,Employment Lawyer
+,Environmental Manager
+,ESG Analyst
+,Equipment Manager
+,Events Manager
+,External Consultant
+,Facilities Manager
+,Financial Analyst
+,Fundraiser
+,Government Relations Professionals
+,Grant Writer
+,Graphic Designer
+,Health and Safety Manager
+,HR Assistant
+,HR Specialist
+,Human Resources (HR) Manager
+,Human Resources Consultant
+,Information Security Officer (ISO)
+,Insurance Professionals
+,Internal Audit Department
+,In-house Counsel
+,Intellectual Property (IP) Attorney
+,IP Analyst
+,IP Counsel
+,IP Manager
+,IT Architect
+,IT Infrastructure Professionals
+,IT Manager
+,IT Project Manager
+,IT Support Staff
+,Lawyers
+,Marketing Communications Manager
+,Marketing Manager
+,Marketing Specialist
+,Membership Manager
+,Occupational Health and Safety Specialist
+,Outreach Manager
+,Partnership Manager
+,Patent Agent
+,Property Manager
+,Public Relations Manager
+,Public Relations Professionals
+,Records Manager
+,Regulatory Compliance Professionals
+,Risk Analyst
+,Risk Assessments
+,Risk Management Officer
+,Risk Manager
+,Sales Manager
+,Safeguarding Coordinator
+,Safeguarding Manager
+,Safeguarding Officer
+,Security Professionals
+,Software Engineer
+,Software Systems Professionals
+,Stakeholder Analyst
+,Stakeholder Engagement Manager
+,Sustainability Manager
+,Tax Preparer
+,Trademark Agent
+,Videographer
+,Vulnerable Adult Protection Specialist
+,Vulnerable Adult Support Worker
+,Whistleblowing Policy
+,Employees

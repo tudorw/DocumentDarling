@@ -1,0 +1,13 @@
+Objectives:
+
+Automate document creation and maintenance to save time and reduce errors. Utilize AI to review document suitability and suggest updates in line with new requirements. Assist users in document organization and placement based on content. Ensure the tone and content of documents adhere to a master communications policy. Maintain human oversight to approve changes and sign off on completed documents. Key Features:
+
+AI-Powered Document Analysis: The system analyzes existing documents, identifies areas of improvement, and suggests updates according to the latest legal, regulatory, and safeguarding requirements.
+
+Guided Document Creation: DocumentDarling, provides users with templates and guidelines for creating new documents, helping to ensure consistency and compliance with the master communications policy.
+
+Document Organization Assistance: The AI helps users categorize and store documents based on their content, making it easier to locate and manage essential records.
+
+Tone and Content Approval: The AI checks documents for adherence to the organization's master communications policy, ensuring that all content is consistent and professional.
+
+Human-in-the-loop Oversight: The system keeps a human in the loop to approve AI-suggested changes and sign off on completed documents, ensuring the highest level of accuracy and compliance.
