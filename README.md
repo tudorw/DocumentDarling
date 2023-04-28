@@ -1,10 +1,19 @@
 # DocumentDarling
 **An idea born of neccesity for the EXAR-Wellbeing journey! https://exar-wellbeing.org.uk/**
 
-First demonstration of basic UI that shows the intended funtionality in it's most basic form.
-![Database_Management_-_Google_Chrome_2023-04-28_02-49-40_AdobeExpress](https://user-images.githubusercontent.com/1279930/235036344-7dcd6533-880a-40f7-9d30-166aeafac7a7.gif)
+
 
 DocumentDarling, aims to revolutionize document creation and maintenance for organizations by leveraging AI technology to streamline the process of drafting and updating legal, regulatory, safeguarding, and other crucial forms and documents. By incorporating a human-in-the-loop approach, DocumentDarling, ensures the quality and compliance of the final documents while minimizing the time and effort required by human experts.
+
+Demonstration of basic UI:
+
+![Database_Management_-_Google_Chrome_2023-04-28_02-49-40_AdobeExpress](https://user-images.githubusercontent.com/1279930/235036344-7dcd6533-880a-40f7-9d30-166aeafac7a7.gif)
+
+Proposed Database Schema Mind Map
+
+![MindMap](https://user-images.githubusercontent.com/1279930/235038288-ef95aaa3-e3eb-40fc-92c5-bfd81e9d7a04.png)
+
+
 
 ##**Objectives:**
 
