@@ -35,6 +35,8 @@ Streamlined document organization and management.
 Increased user satisfaction and ease of use.
 
 
+![MindMap](https://user-images.githubusercontent.com/1279930/235032284-a1f32ee9-70bf-445a-9fed-3b19847e176f.png)
+
 ##Next Steps:
 
 Develop a prototype of the AI-powered document analysis and creation system.
